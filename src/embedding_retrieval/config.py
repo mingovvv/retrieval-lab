@@ -11,7 +11,7 @@ def load_env(start_path: str | Path | None = None) -> Path:
     for candidate in [start, *start.parents]:
         env_path = candidate / ".env"
         if env_path.exists():
-            load_dotenv(env_path, override=False)
+            load_dotenv(env_path, override=True)
             return env_path
     raise FileNotFoundError("Could not find a .env file from the current path upwards")
 

@@ -8,5 +8,5 @@ class VectorStore(Protocol):
     def add_documents(self, documents: list[Document]) -> None:
         ...
 
-    def similarity_search(self, query: str, top_k: int) -> list[SearchResult]:
+    def similarity_search(self, query: str, top_k: int, filter: str | None = None) -> list[SearchResult]:
         ...

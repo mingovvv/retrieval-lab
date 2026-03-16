@@ -30,8 +30,8 @@ class UpstashVectorStoreAdapter:
             return
         self._store.add_documents(documents)
 
-    def similarity_search(self, query: str, top_k: int) -> list[SearchResult]:
-        results = self._store.similarity_search_with_score(query, k=top_k)
+    def similarity_search(self, query: str, top_k: int, filter: str | None = None) -> list[SearchResult]:
+        results = self._store.similarity_search_with_score(query, k=top_k, filter=filter)
         return [
             SearchResult(
                 document=document,

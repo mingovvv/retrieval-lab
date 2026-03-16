@@ -12,6 +12,7 @@ def build_embeddings(config: RetrievalConfig):
 
         return GoogleGenerativeAIEmbeddings(
             model=config.embedding_model,
+            output_dimensionality=768,
             **config.embedding_kwargs,
         )
     if provider == "openai":
