@@ -1,0 +1,12 @@
+fastapi
+jupyterlab
+langchain-core
+langchain-community
+langchain-google-genai
+langchain-text-splitters
+langchain-openai
+langchain-huggingface
+langchain-ollama
+python-dotenv
+pytest
+upstash-vector
