@@ -1,11 +1,3 @@
-"""포지션 성격에 따른 capability / experience 가중치 매핑.
-
-PROCESS.md 기준:
-- Backend / Frontend (스킬 중심): capability 0.7, experience 0.3
-- PL / PM (경험 중심):             capability 0.2, experience 0.8
-- QA (균등):                       capability 0.5, experience 0.5
-"""
-
 from __future__ import annotations
 
 # (capability_weight, experience_weight)

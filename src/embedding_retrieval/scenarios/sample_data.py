@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from ..types import EngineerProfile
 
@@ -15,9 +15,9 @@ SAMPLE_ENGINEERS = [
         8년차 백엔드 개발자.
 
         [프로젝트 경험]
-        현대모비스(2023~2025): ERP 재고관리 모듈 개발. Spring Batch로 야간 정산 처리 자동화. 포지션: 백엔드 리드.
-        LG CNS(2021~2023): 제조업 MES 시스템 API 개발. Oracle DB 쿼리 최적화로 조회속도 40% 개선. 포지션: 백엔드 개발자.
-        삼성SDS(2017~2021): 물류 ERP 시스템 개발. Spring Boot 기반 REST API 설계. 포지션: 백엔드 개발자.""",
+        현대모비스(2023~2025): ERP 재고관리 모듈 개발. Spring Batch로 야간 정산 처리 자동화.
+        LG CNS(2021~2023): 제조업 MES 시스템 API 개발. Oracle DB 쿼리 최적화로 조회속도 40% 개선.
+        삼성SDS(2017~2021): 물류 ERP 시스템 개발. Spring Boot 기반 REST API 설계.""",
         "metadata": {
             "engineer_id": "eng-001",
             "grade": "SENIOR",
@@ -35,9 +35,9 @@ SAMPLE_ENGINEERS = [
         5년차 백엔드 개발자.
 
         [프로젝트 경험]
-        현대차(2024~2025): 딜러 관리 포털 백엔드 개발. JWT 인증 모듈 구현. 포지션: 백엔드 개발자.
-        SK하이닉스(2022~2024): 생산 관리 시스템 API 개발. Kafka 기반 이벤트 처리. 포지션: 백엔드 개발자.
-        스타트업(2020~2022): 쇼핑몰 주문 시스템 개발. 포지션: 풀스택 개발자.""",
+        현대차(2024~2025): 딜러 관리 포털 백엔드 개발. JWT 인증 모듈 구현.
+        SK하이닉스(2022~2024): 생산 관리 시스템 API 개발. Kafka 기반 이벤트 처리.
+        스타트업(2020~2022): 쇼핑몰 주문 시스템 개발.""",
         "metadata": {
             "engineer_id": "eng-002",
             "grade": "INTERMEDIATE",
@@ -55,9 +55,9 @@ SAMPLE_ENGINEERS = [
         6년차 프론트엔드 개발자.
 
         [프로젝트 경험]
-        기아차(2024~2025): 판매 통계 대시보드 개발. Recharts 기반 실시간 차트 구현. 포지션: 프론트 리드.
-        현대카드(2022~2024): 결제 현황 모니터링 화면 개발. 포지션: 프론트엔드 개발자.
-        NHN(2019~2022): 어드민 포털 React 전환. 포지션: 프론트엔드 개발자.""",
+        기아차(2024~2025): 판매 통계 대시보드 개발. Recharts 기반 실시간 차트 구현.
+        현대카드(2022~2024): 결제 현황 모니터링 화면 개발.
+        NHN(2019~2022): 어드민 포털 React 전환.""",
         "metadata": {
             "engineer_id": "eng-003",
             "grade": "SENIOR",
@@ -75,9 +75,9 @@ SAMPLE_ENGINEERS = [
         4년차 프론트엔드 개발자.
 
         [프로젝트 경험]
-        포스코(2024~2025): 생산 현황 모니터링 대시보드 개발. Chart.js 활용. 포지션: 프론트엔드 개발자.
-        네이버(2022~2024): 광고 성과 리포트 화면 개발. 포지션: 프론트엔드 개발자.
-        에이전시(2021~2022): 다수 기업 웹사이트 퍼블리싱. 포지션: 퍼블리셔.""",
+        포스코(2024~2025): 생산 현황 모니터링 대시보드 개발. Chart.js 활용.
+        네이버(2022~2024): 광고 성과 리포트 화면 개발.
+        에이전시(2021~2022): 다수 기업 웹사이트 퍼블리싱.""",
         "metadata": {
             "engineer_id": "eng-004",
             "grade": "INTERMEDIATE",
@@ -97,7 +97,7 @@ SAMPLE_ENGINEERS = [
         [프로젝트 경험]
         쿠팡(2024~2025): 물류 최적화 알고리즘 서버 API 개발. FastAPI 기반 고성능 처리.
         배달의민족(2022~2024): 주문 관리 시스템 유지보수. MSA 환경에서 서비스 간 통신 최적화.
-        테크 스타트업(2021~2022): 실시간 채팅 서버 구축. 포지션: 백엔드 개발자.""",
+        테크 스타트업(2021~2022): 실시간 채팅 서버 구축.""",
         "metadata": {
             "engineer_id": "eng-005",
             "grade": "INTERMEDIATE",
@@ -117,7 +117,7 @@ SAMPLE_ENGINEERS = [
         [프로젝트 경험]
         아모레퍼시픽(2024~2025): 공식 온라인몰 반응형 웹 리뉴얼. 시각 장애인을 위한 웹 접근성(WA) 인증 획득.
         무신사(2022~2024): 프로모션 페이지 제작 및 이벤트 인터랙션 구현.
-        웹 에이전시(2020~2022): 다수의 브랜드 사이트 구축 및 유지보수. 포지션: 시니어 퍼블리셔.""",
+        웹 에이전시(2020~2022): 다수의 브랜드 사이트 구축 및 유지보수.""",
         "metadata": {
             "engineer_id": "pub-001",
             "grade": "INTERMEDIATE",
@@ -137,7 +137,7 @@ SAMPLE_ENGINEERS = [
         [프로젝트 경험]
         카카오뱅크(2023~2025): 모바일 앱 기능 테스트 및 자동화 스크립트 작성. 안정성 99% 달성.
         라인(2021~2023): 글로벌 메신저 부하 테스트 진행. 성능 병목 구간 탐색 및 리포트.
-        안랩(2018~2021): 보안 소프트웨어 수동 및 자동화 테스트 진행. 포지션: QA 리드.""",
+        안랩(2018~2021): 보안 소프트웨어 수동 및 자동화 테스트 진행.""",
         "metadata": {
             "engineer_id": "qa-001",
             "grade": "SENIOR",
@@ -157,7 +157,7 @@ SAMPLE_ENGINEERS = [
         [프로젝트 경험]
         토스(2024~2025): 신규 금융 상품 가입 프로세스 UX 개선. 전환율 15% 상승.
         야놀자(2022~2024): 숙박 예약 화면 UI 컴포넌트 시스템 구축 및 가이드라인 제정.
-        디자인 스튜디오(2019~2022): 브랜드 아이덴티티(BI) 및 앱 디자인 프로젝트 참여. 포지션: 메인 디자이너.""",
+        디자인 스튜디오(2019~2022): 브랜드 아이덴티티(BI) 및 앱 디자인 프로젝트 참여.""",
         "metadata": {
             "engineer_id": "des-001",
             "grade": "SENIOR",
@@ -177,7 +177,7 @@ SAMPLE_ENGINEERS = [
         [프로젝트 경험]
         당근마켓(2023~2025): 지역 커뮤니티 신규 피드 서비스 기획 및 런칭. MAU 20% 증대.
         직방(2020~2023): 부동산 매물 관리 시스템 백오피스 기획 및 프로세스 자동화.
-        이커머스 기업(2016~2020): 주문/결제 서비스 운영 기획. 포지션: PM.""",
+        이커머스 기업(2016~2020): 주문/결제 서비스 운영 기획.""",
         "metadata": {
             "engineer_id": "pln-001",
             "grade": "SENIOR",
@@ -190,182 +190,909 @@ SAMPLE_ENGINEERS = [
 
 # ---------------------------------------------------------------------------
 # 듀얼 텍스트 포맷 (PROCESS.md 기준 — capability / experience 분리)
+# 팀 공용 테스트를 위해 100개의 고정 프로필을 직접 정의한다.
 # ---------------------------------------------------------------------------
 SAMPLE_ENGINEER_PROFILES: list[EngineerProfile] = [
     EngineerProfile(
         engineer_id="eng-001",
+        grade="EXPERT",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Java / Spring Boot / Spring Batch / PostgreSQL / Redis / Docker\n\n정보처리기사",
+        experience_text="[소개]\n12년차 백엔드 아키텍트. 대규모 트래픽 서비스 설계와 운영에 강점이 있는 개발자.\n\n[프로젝트 경험]\n현대오토에버(2024~2025): 차량 데이터 수집 플랫폼 API 개발. 실시간 적재 파이프라인 구축과 배치 처리 시간 35% 단축.\n네이버(2022~2024): 광고 리포트 관리자 화면 개발. 대용량 차트 렌더링 최적화.\n배달의민족(2020~2022): 매장 운영 백오피스 개발. 운영 도구 개선으로 CS 처리 시간 단축.\n\n[경력]\nSI 프로젝트에서 커머스와 제조 백엔드 개발을 담당하며 기본기를 다졌다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-002",
+        grade="EXPERT",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Java / Kotlin / Spring Boot / MySQL / Kafka / AWS\n\nSQLD",
+        experience_text="[소개]\n12년차 백엔드 개발자. 제조, 물류, 금융 도메인 경험을 바탕으로 안정적인 서비스를 구축한 개발자.\n\n[프로젝트 경험]\n삼성SDS(2024~2025): 물류 운영 시스템 백엔드 개발. 정산 배치 안정화와 장애 대응 체계 수립.\n카카오(2022~2024): 사용자 활동 분석 API 개발. 이벤트 수집 구조 개선으로 데이터 유실률 감소.\n토스(2020~2022): 금융 상품 가입 프로세스 개발. 인증 및 심사 API 연동 품질 향상.\n\n[경력]\n스타트업에서 풀스택 개발과 운영 자동화를 맡으며 빠른 실행력을 키웠다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-003",
+        grade="EXPERT",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Python / FastAPI / PostgreSQL / Docker / Kubernetes / Celery\n\nAWS SAA",
+        experience_text="[소개]\n12년차 프론트엔드 개발자. 대시보드, 관리자 화면, 실시간 데이터 처리 경험이 풍부한 개발자.\n\n[프로젝트 경험]\nLG CNS(2024~2025): 제조 MES 연동 서비스 개발. Oracle 쿼리 튜닝으로 주요 조회 성능 개선.\n쿠팡(2022~2024): 주문·배송 도메인 서비스 개발. 비동기 처리 구조 도입으로 피크 시간대 안정성 확보.\n당근(2020~2022): 지역 서비스 추천 기능 개발. A/B 테스트 기반 추천 로직 개선.\n\n[경력]\n플랫폼 조직에서 공통 모듈과 개발 표준을 정비한 경험이 있다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-004",
+        grade="EXPERT",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Python / Django / MySQL / Redis / Celery / AWS\n\n리눅스마스터 2급",
+        experience_text="[소개]\n12년차 풀스택 개발자. API 설계와 성능 개선을 반복적으로 수행해 온 문제 해결형 개발자.\n\n[프로젝트 경험]\n네이버(2024~2025): 광고 리포트 관리자 화면 개발. 대용량 차트 렌더링 최적화.\n배달의민족(2022~2024): 매장 운영 백오피스 개발. 운영 도구 개선으로 CS 처리 시간 단축.\n무신사(2020~2022): 프로모션·쿠폰 서비스 개발. 트래픽 급증 구간 캐시 전략 적용.\n\n[경력]\n사내 레거시 서비스 개선 프로젝트를 통해 안정적인 전환 작업을 수행했다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-005",
+        grade="EXPERT",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Node.js / NestJS / TypeScript / PostgreSQL / Redis / Swagger\n\nADsP",
+        experience_text="[소개]\n12년차 데이터 플랫폼 개발자. MSA 전환, 클라우드 운영, 배포 자동화 경험을 함께 보유한 개발자.\n\n[프로젝트 경험]\n카카오(2024~2025): 사용자 활동 분석 API 개발. 이벤트 수집 구조 개선으로 데이터 유실률 감소.\n토스(2022~2024): 금융 상품 가입 프로세스 개발. 인증 및 심사 API 연동 품질 향상.\nSK하이닉스(2020~2022): 생산 모니터링 시스템 개발. 이벤트 기반 알림 구조 도입.\n\n[경력]\n도메인 조직과 협업하며 요구사항을 기술 설계로 구체화하는 역할을 맡아 왔다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-006",
+        grade="EXPERT",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="React / TypeScript / Next.js / TanStack Query / Storybook / Figma\n\n정보처리기사",
+        experience_text="[소개]\n12년차 클라우드 플랫폼 개발자. 요구사항 분석부터 운영 안정화까지 전 과정을 폭넓게 수행한 개발자.\n\n[프로젝트 경험]\n쿠팡(2024~2025): 주문·배송 도메인 서비스 개발. 비동기 처리 구조 도입으로 피크 시간대 안정성 확보.\n당근(2022~2024): 지역 서비스 추천 기능 개발. A/B 테스트 기반 추천 로직 개선.\n포스코DX(2020~2022): 스마트팩토리 데이터 허브 개발. 현장 설비 데이터 표준화와 API 제공.\n\n[경력]\nSI 프로젝트에서 커머스와 제조 백엔드 개발을 담당하며 기본기를 다졌다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-007",
+        grade="EXPERT",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="React / Vue.js / TypeScript / Vite / Chart.js / Pinia\n\nSQLD",
+        experience_text="[소개]\n12년차 AI 서비스 개발자. 대규모 트래픽 서비스 설계와 운영에 강점이 있는 개발자.\n\n[프로젝트 경험]\n배달의민족(2024~2025): 매장 운영 백오피스 개발. 운영 도구 개선으로 CS 처리 시간 단축.\n무신사(2022~2024): 프로모션·쿠폰 서비스 개발. 트래픽 급증 구간 캐시 전략 적용.\n야놀자(2020~2022): 숙박 예약 관리자 포털 개발. 운영 화면 공통 컴포넌트화.\n\n[경력]\n스타트업에서 풀스택 개발과 운영 자동화를 맡으며 빠른 실행력을 키웠다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-008",
+        grade="EXPERT",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Go / Gin / PostgreSQL / gRPC / Prometheus / Grafana\n\nAWS SAA",
+        experience_text="[소개]\n12년차 커머스 플랫폼 개발자. 제조, 물류, 금융 도메인 경험을 바탕으로 안정적인 서비스를 구축한 개발자.\n\n[프로젝트 경험]\n토스(2024~2025): 금융 상품 가입 프로세스 개발. 인증 및 심사 API 연동 품질 향상.\nSK하이닉스(2022~2024): 생산 모니터링 시스템 개발. 이벤트 기반 알림 구조 도입.\n직방(2020~2022): 매물 관리 백오피스 개발. 권한 체계 정비와 검색 응답 속도 개선.\n\n[경력]\n플랫폼 조직에서 공통 모듈과 개발 표준을 정비한 경험이 있다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-009",
         grade="SENIOR",
         status="AVAILABLE",
         engineer_role="DEVELOPER",
         employment_type="FULL_TIME",
-        capability_text=(
-            "Java / Spring Boot / Spring Batch / PostgreSQL / Redis / Docker\n"
-            "\n"
-            "정보처리기사"
-        ),
-        experience_text=(
-            "[소개]\n"
-            "MSA 아키텍처 기반 백엔드 전문. 제조업/물류 도메인 경험 다수.\n"
-            "\n"
-            "[프로젝트 경험]\n"
-            "현대모비스(2023~2025): ERP 재고관리 모듈 개발. Spring Batch로 야간 정산 처리 자동화. 포지션: 백엔드 리드.\n"
-            "LG CNS(2021~2023): 제조업 MES 시스템 API 개발. Oracle DB 쿼리 최적화로 조회속도 40% 개선. 포지션: 백엔드 개발자.\n"
-            "삼성SDS(2017~2021): 물류 ERP 시스템 개발. Spring Boot 기반 REST API 설계. 포지션: 백엔드 개발자.\n"
-            "\n"
-            "[경력]\n"
-            "현대오토에버(2015~2017): 백엔드 개발자. ERP 연동 API 개발."
-        ),
+        capability_text="Java / Spring Cloud / Kafka / MongoDB / Elasticsearch / Docker\n\n리눅스마스터 2급",
+        experience_text="[소개]\n8년차 핀테크 백엔드 개발자. 대시보드, 관리자 화면, 실시간 데이터 처리 경험이 풍부한 개발자.\n\n[프로젝트 경험]\n당근(2024~2025): 지역 서비스 추천 기능 개발. A/B 테스트 기반 추천 로직 개선.\n포스코DX(2022~2024): 스마트팩토리 데이터 허브 개발. 현장 설비 데이터 표준화와 API 제공.\n컬리(2020~2022): 정산·프로모션 엔진 개발. 배치 재처리 기능 추가로 운영 효율 향상.\n\n[경력]\n사내 레거시 서비스 개선 프로젝트를 통해 안정적인 전환 작업을 수행했다.",
     ),
     EngineerProfile(
-        engineer_id="eng-002",
+        engineer_id="eng-010",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Flutter / Dart / Firebase / REST API / Figma / GitHub Actions\n\nADsP",
+        experience_text="[소개]\n8년차 웹 애플리케이션 개발자. API 설계와 성능 개선을 반복적으로 수행해 온 문제 해결형 개발자.\n\n[프로젝트 경험]\n무신사(2024~2025): 프로모션·쿠폰 서비스 개발. 트래픽 급증 구간 캐시 전략 적용.\n야놀자(2022~2024): 숙박 예약 관리자 포털 개발. 운영 화면 공통 컴포넌트화.\n현대카드(2020~2022): 결제 승인 시스템 고도화. 승인 응답 시간 안정화와 장애 포인트 축소.\n\n[경력]\n도메인 조직과 협업하며 요구사항을 기술 설계로 구체화하는 역할을 맡아 왔다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-011",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Kotlin / Android / Jetpack Compose / Retrofit / Room / Firebase\n\n정보처리기사",
+        experience_text="[소개]\n8년차 모바일 앱 개발자. MSA 전환, 클라우드 운영, 배포 자동화 경험을 함께 보유한 개발자.\n\n[프로젝트 경험]\nSK하이닉스(2024~2025): 생산 모니터링 시스템 개발. 이벤트 기반 알림 구조 도입.\n직방(2022~2024): 매물 관리 백오피스 개발. 권한 체계 정비와 검색 응답 속도 개선.\n신한은행(2020~2022): 기업뱅킹 API 플랫폼 구축. 내부 연계 표준화와 배포 자동화 정착.\n\n[경력]\nSI 프로젝트에서 커머스와 제조 백엔드 개발을 담당하며 기본기를 다졌다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-012",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="TypeScript / React Native / Redux Toolkit / Expo / Firebase / Jest\n\nSQLD",
+        experience_text="[소개]\n8년차 DevOps 엔지니어. 요구사항 분석부터 운영 안정화까지 전 과정을 폭넓게 수행한 개발자.\n\n[프로젝트 경험]\n포스코DX(2024~2025): 스마트팩토리 데이터 허브 개발. 현장 설비 데이터 표준화와 API 제공.\n컬리(2022~2024): 정산·프로모션 엔진 개발. 배치 재처리 기능 추가로 운영 효율 향상.\nCJ올리브영(2020~2022): 멤버십 서비스 개편. 쿠폰 정합성 검증 로직 강화.\n\n[경력]\n스타트업에서 풀스택 개발과 운영 자동화를 맡으며 빠른 실행력을 키웠다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-013",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Java / Spring Boot / Spring Batch / PostgreSQL / Redis / Docker\n\n정보처리기사",
+        experience_text="[소개]\n8년차 백엔드 아키텍트. 대규모 트래픽 서비스 설계와 운영에 강점이 있는 개발자.\n\n[프로젝트 경험]\n야놀자(2024~2025): 숙박 예약 관리자 포털 개발. 운영 화면 공통 컴포넌트화.\n현대카드(2022~2024): 결제 승인 시스템 고도화. 승인 응답 시간 안정화와 장애 포인트 축소.\n현대오토에버(2020~2022): 차량 데이터 수집 플랫폼 API 개발. 실시간 적재 파이프라인 구축과 배치 처리 시간 35% 단축.\n\n[경력]\n플랫폼 조직에서 공통 모듈과 개발 표준을 정비한 경험이 있다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-014",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Java / Kotlin / Spring Boot / MySQL / Kafka / AWS\n\nSQLD",
+        experience_text="[소개]\n8년차 백엔드 개발자. 제조, 물류, 금융 도메인 경험을 바탕으로 안정적인 서비스를 구축한 개발자.\n\n[프로젝트 경험]\n직방(2024~2025): 매물 관리 백오피스 개발. 권한 체계 정비와 검색 응답 속도 개선.\n신한은행(2022~2024): 기업뱅킹 API 플랫폼 구축. 내부 연계 표준화와 배포 자동화 정착.\n삼성SDS(2020~2022): 물류 운영 시스템 백엔드 개발. 정산 배치 안정화와 장애 대응 체계 수립.\n\n[경력]\n사내 레거시 서비스 개선 프로젝트를 통해 안정적인 전환 작업을 수행했다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-015",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Python / FastAPI / PostgreSQL / Docker / Kubernetes / Celery\n\nAWS SAA",
+        experience_text="[소개]\n8년차 프론트엔드 개발자. 대시보드, 관리자 화면, 실시간 데이터 처리 경험이 풍부한 개발자.\n\n[프로젝트 경험]\n컬리(2024~2025): 정산·프로모션 엔진 개발. 배치 재처리 기능 추가로 운영 효율 향상.\nCJ올리브영(2022~2024): 멤버십 서비스 개편. 쿠폰 정합성 검증 로직 강화.\nLG CNS(2020~2022): 제조 MES 연동 서비스 개발. Oracle 쿼리 튜닝으로 주요 조회 성능 개선.\n\n[경력]\n도메인 조직과 협업하며 요구사항을 기술 설계로 구체화하는 역할을 맡아 왔다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-016",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Python / Django / MySQL / Redis / Celery / AWS\n\n리눅스마스터 2급",
+        experience_text="[소개]\n8년차 풀스택 개발자. API 설계와 성능 개선을 반복적으로 수행해 온 문제 해결형 개발자.\n\n[프로젝트 경험]\n현대카드(2024~2025): 결제 승인 시스템 고도화. 승인 응답 시간 안정화와 장애 포인트 축소.\n현대오토에버(2022~2024): 차량 데이터 수집 플랫폼 API 개발. 실시간 적재 파이프라인 구축과 배치 처리 시간 35% 단축.\n네이버(2020~2022): 광고 리포트 관리자 화면 개발. 대용량 차트 렌더링 최적화.\n\n[경력]\nSI 프로젝트에서 커머스와 제조 백엔드 개발을 담당하며 기본기를 다졌다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-017",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Node.js / NestJS / TypeScript / PostgreSQL / Redis / Swagger\n\nADsP",
+        experience_text="[소개]\n8년차 데이터 플랫폼 개발자. MSA 전환, 클라우드 운영, 배포 자동화 경험을 함께 보유한 개발자.\n\n[프로젝트 경험]\n신한은행(2024~2025): 기업뱅킹 API 플랫폼 구축. 내부 연계 표준화와 배포 자동화 정착.\n삼성SDS(2022~2024): 물류 운영 시스템 백엔드 개발. 정산 배치 안정화와 장애 대응 체계 수립.\n카카오(2020~2022): 사용자 활동 분석 API 개발. 이벤트 수집 구조 개선으로 데이터 유실률 감소.\n\n[경력]\n스타트업에서 풀스택 개발과 운영 자동화를 맡으며 빠른 실행력을 키웠다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-018",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="React / TypeScript / Next.js / TanStack Query / Storybook / Figma\n\n정보처리기사",
+        experience_text="[소개]\n8년차 클라우드 플랫폼 개발자. 요구사항 분석부터 운영 안정화까지 전 과정을 폭넓게 수행한 개발자.\n\n[프로젝트 경험]\nCJ올리브영(2024~2025): 멤버십 서비스 개편. 쿠폰 정합성 검증 로직 강화.\nLG CNS(2022~2024): 제조 MES 연동 서비스 개발. Oracle 쿼리 튜닝으로 주요 조회 성능 개선.\n쿠팡(2020~2022): 주문·배송 도메인 서비스 개발. 비동기 처리 구조 도입으로 피크 시간대 안정성 확보.\n\n[경력]\n플랫폼 조직에서 공통 모듈과 개발 표준을 정비한 경험이 있다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-019",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="React / Vue.js / TypeScript / Vite / Chart.js / Pinia\n\nSQLD",
+        experience_text="[소개]\n8년차 AI 서비스 개발자. 대규모 트래픽 서비스 설계와 운영에 강점이 있는 개발자.\n\n[프로젝트 경험]\n현대오토에버(2024~2025): 차량 데이터 수집 플랫폼 API 개발. 실시간 적재 파이프라인 구축과 배치 처리 시간 35% 단축.\n네이버(2022~2024): 광고 리포트 관리자 화면 개발. 대용량 차트 렌더링 최적화.\n배달의민족(2020~2022): 매장 운영 백오피스 개발. 운영 도구 개선으로 CS 처리 시간 단축.\n\n[경력]\n사내 레거시 서비스 개선 프로젝트를 통해 안정적인 전환 작업을 수행했다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-020",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Go / Gin / PostgreSQL / gRPC / Prometheus / Grafana\n\nAWS SAA",
+        experience_text="[소개]\n8년차 커머스 플랫폼 개발자. 제조, 물류, 금융 도메인 경험을 바탕으로 안정적인 서비스를 구축한 개발자.\n\n[프로젝트 경험]\n삼성SDS(2024~2025): 물류 운영 시스템 백엔드 개발. 정산 배치 안정화와 장애 대응 체계 수립.\n카카오(2022~2024): 사용자 활동 분석 API 개발. 이벤트 수집 구조 개선으로 데이터 유실률 감소.\n토스(2020~2022): 금융 상품 가입 프로세스 개발. 인증 및 심사 API 연동 품질 향상.\n\n[경력]\n도메인 조직과 협업하며 요구사항을 기술 설계로 구체화하는 역할을 맡아 왔다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-021",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Java / Spring Cloud / Kafka / MongoDB / Elasticsearch / Docker\n\n리눅스마스터 2급",
+        experience_text="[소개]\n8년차 핀테크 백엔드 개발자. 대시보드, 관리자 화면, 실시간 데이터 처리 경험이 풍부한 개발자.\n\n[프로젝트 경험]\nLG CNS(2024~2025): 제조 MES 연동 서비스 개발. Oracle 쿼리 튜닝으로 주요 조회 성능 개선.\n쿠팡(2022~2024): 주문·배송 도메인 서비스 개발. 비동기 처리 구조 도입으로 피크 시간대 안정성 확보.\n당근(2020~2022): 지역 서비스 추천 기능 개발. A/B 테스트 기반 추천 로직 개선.\n\n[경력]\nSI 프로젝트에서 커머스와 제조 백엔드 개발을 담당하며 기본기를 다졌다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-022",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Flutter / Dart / Firebase / REST API / Figma / GitHub Actions\n\nADsP",
+        experience_text="[소개]\n8년차 웹 애플리케이션 개발자. API 설계와 성능 개선을 반복적으로 수행해 온 문제 해결형 개발자.\n\n[프로젝트 경험]\n네이버(2024~2025): 광고 리포트 관리자 화면 개발. 대용량 차트 렌더링 최적화.\n배달의민족(2022~2024): 매장 운영 백오피스 개발. 운영 도구 개선으로 CS 처리 시간 단축.\n무신사(2020~2022): 프로모션·쿠폰 서비스 개발. 트래픽 급증 구간 캐시 전략 적용.\n\n[경력]\n스타트업에서 풀스택 개발과 운영 자동화를 맡으며 빠른 실행력을 키웠다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-023",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Kotlin / Android / Jetpack Compose / Retrofit / Room / Firebase\n\n정보처리기사",
+        experience_text="[소개]\n8년차 모바일 앱 개발자. MSA 전환, 클라우드 운영, 배포 자동화 경험을 함께 보유한 개발자.\n\n[프로젝트 경험]\n카카오(2024~2025): 사용자 활동 분석 API 개발. 이벤트 수집 구조 개선으로 데이터 유실률 감소.\n토스(2022~2024): 금융 상품 가입 프로세스 개발. 인증 및 심사 API 연동 품질 향상.\nSK하이닉스(2020~2022): 생산 모니터링 시스템 개발. 이벤트 기반 알림 구조 도입.\n\n[경력]\n플랫폼 조직에서 공통 모듈과 개발 표준을 정비한 경험이 있다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-024",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="TypeScript / React Native / Redux Toolkit / Expo / Firebase / Jest\n\nSQLD",
+        experience_text="[소개]\n8년차 DevOps 엔지니어. 요구사항 분석부터 운영 안정화까지 전 과정을 폭넓게 수행한 개발자.\n\n[프로젝트 경험]\n쿠팡(2024~2025): 주문·배송 도메인 서비스 개발. 비동기 처리 구조 도입으로 피크 시간대 안정성 확보.\n당근(2022~2024): 지역 서비스 추천 기능 개발. A/B 테스트 기반 추천 로직 개선.\n포스코DX(2020~2022): 스마트팩토리 데이터 허브 개발. 현장 설비 데이터 표준화와 API 제공.\n\n[경력]\n사내 레거시 서비스 개선 프로젝트를 통해 안정적인 전환 작업을 수행했다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-025",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Java / Spring Boot / Spring Batch / PostgreSQL / Redis / Docker\n\n정보처리기사",
+        experience_text="[소개]\n8년차 백엔드 아키텍트. 대규모 트래픽 서비스 설계와 운영에 강점이 있는 개발자.\n\n[프로젝트 경험]\n배달의민족(2024~2025): 매장 운영 백오피스 개발. 운영 도구 개선으로 CS 처리 시간 단축.\n무신사(2022~2024): 프로모션·쿠폰 서비스 개발. 트래픽 급증 구간 캐시 전략 적용.\n야놀자(2020~2022): 숙박 예약 관리자 포털 개발. 운영 화면 공통 컴포넌트화.\n\n[경력]\n도메인 조직과 협업하며 요구사항을 기술 설계로 구체화하는 역할을 맡아 왔다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-026",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Java / Kotlin / Spring Boot / MySQL / Kafka / AWS\n\nSQLD",
+        experience_text="[소개]\n8년차 백엔드 개발자. 제조, 물류, 금융 도메인 경험을 바탕으로 안정적인 서비스를 구축한 개발자.\n\n[프로젝트 경험]\n토스(2024~2025): 금융 상품 가입 프로세스 개발. 인증 및 심사 API 연동 품질 향상.\nSK하이닉스(2022~2024): 생산 모니터링 시스템 개발. 이벤트 기반 알림 구조 도입.\n직방(2020~2022): 매물 관리 백오피스 개발. 권한 체계 정비와 검색 응답 속도 개선.\n\n[경력]\nSI 프로젝트에서 커머스와 제조 백엔드 개발을 담당하며 기본기를 다졌다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-027",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Python / FastAPI / PostgreSQL / Docker / Kubernetes / Celery\n\nAWS SAA",
+        experience_text="[소개]\n8년차 프론트엔드 개발자. 대시보드, 관리자 화면, 실시간 데이터 처리 경험이 풍부한 개발자.\n\n[프로젝트 경험]\n당근(2024~2025): 지역 서비스 추천 기능 개발. A/B 테스트 기반 추천 로직 개선.\n포스코DX(2022~2024): 스마트팩토리 데이터 허브 개발. 현장 설비 데이터 표준화와 API 제공.\n컬리(2020~2022): 정산·프로모션 엔진 개발. 배치 재처리 기능 추가로 운영 효율 향상.\n\n[경력]\n스타트업에서 풀스택 개발과 운영 자동화를 맡으며 빠른 실행력을 키웠다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-028",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Python / Django / MySQL / Redis / Celery / AWS\n\n리눅스마스터 2급",
+        experience_text="[소개]\n8년차 풀스택 개발자. API 설계와 성능 개선을 반복적으로 수행해 온 문제 해결형 개발자.\n\n[프로젝트 경험]\n무신사(2024~2025): 프로모션·쿠폰 서비스 개발. 트래픽 급증 구간 캐시 전략 적용.\n야놀자(2022~2024): 숙박 예약 관리자 포털 개발. 운영 화면 공통 컴포넌트화.\n현대카드(2020~2022): 결제 승인 시스템 고도화. 승인 응답 시간 안정화와 장애 포인트 축소.\n\n[경력]\n플랫폼 조직에서 공통 모듈과 개발 표준을 정비한 경험이 있다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-029",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Node.js / NestJS / TypeScript / PostgreSQL / Redis / Swagger\n\nADsP",
+        experience_text="[소개]\n8년차 데이터 플랫폼 개발자. MSA 전환, 클라우드 운영, 배포 자동화 경험을 함께 보유한 개발자.\n\n[프로젝트 경험]\nSK하이닉스(2024~2025): 생산 모니터링 시스템 개발. 이벤트 기반 알림 구조 도입.\n직방(2022~2024): 매물 관리 백오피스 개발. 권한 체계 정비와 검색 응답 속도 개선.\n신한은행(2020~2022): 기업뱅킹 API 플랫폼 구축. 내부 연계 표준화와 배포 자동화 정착.\n\n[경력]\n사내 레거시 서비스 개선 프로젝트를 통해 안정적인 전환 작업을 수행했다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-030",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="React / TypeScript / Next.js / TanStack Query / Storybook / Figma\n\n정보처리기사",
+        experience_text="[소개]\n8년차 클라우드 플랫폼 개발자. 요구사항 분석부터 운영 안정화까지 전 과정을 폭넓게 수행한 개발자.\n\n[프로젝트 경험]\n포스코DX(2024~2025): 스마트팩토리 데이터 허브 개발. 현장 설비 데이터 표준화와 API 제공.\n컬리(2022~2024): 정산·프로모션 엔진 개발. 배치 재처리 기능 추가로 운영 효율 향상.\nCJ올리브영(2020~2022): 멤버십 서비스 개편. 쿠폰 정합성 검증 로직 강화.\n\n[경력]\n도메인 조직과 협업하며 요구사항을 기술 설계로 구체화하는 역할을 맡아 왔다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-031",
         grade="INTERMEDIATE",
         status="AVAILABLE",
         engineer_role="DEVELOPER",
         employment_type="FULL_TIME",
-        capability_text=(
-            "Java / Spring Boot / Spring Security / MySQL / Kafka / AWS"
-        ),
-        experience_text=(
-            "[소개]\n"
-            "자동차/반도체 제조 도메인 백엔드 개발. 이벤트 기반 아키텍처 경험.\n"
-            "\n"
-            "[프로젝트 경험]\n"
-            "현대차(2024~2025): 딜러 관리 포털 백엔드 개발. JWT 인증 모듈 구현. 포지션: 백엔드 개발자.\n"
-            "SK하이닉스(2022~2024): 생산 관리 시스템 API 개발. Kafka 기반 이벤트 처리. 포지션: 백엔드 개발자.\n"
-            "스타트업(2020~2022): 쇼핑몰 주문 시스템 개발. 포지션: 풀스택 개발자."
-        ),
+        capability_text="React / Vue.js / TypeScript / Vite / Chart.js / Pinia\n\nSQLD",
+        experience_text="[소개]\n5년차 AI 서비스 개발자. 대규모 트래픽 서비스 설계와 운영에 강점이 있는 개발자.\n\n[프로젝트 경험]\n야놀자(2024~2025): 숙박 예약 관리자 포털 개발. 운영 화면 공통 컴포넌트화.\n현대카드(2022~2024): 결제 승인 시스템 고도화. 승인 응답 시간 안정화와 장애 포인트 축소.\n현대오토에버(2020~2022): 차량 데이터 수집 플랫폼 API 개발. 실시간 적재 파이프라인 구축과 배치 처리 시간 35% 단축.\n\n[경력]\nSI 프로젝트에서 커머스와 제조 백엔드 개발을 담당하며 기본기를 다졌다.",
     ),
     EngineerProfile(
-        engineer_id="eng-003",
-        grade="SENIOR",
+        engineer_id="eng-032",
+        grade="INTERMEDIATE",
         status="AVAILABLE",
         engineer_role="DEVELOPER",
         employment_type="FULL_TIME",
-        capability_text=(
-            "React / TypeScript / Redux / Recharts / Figma / Storybook"
-        ),
-        experience_text=(
-            "[소개]\n"
-            "자동차/금융 도메인 프론트엔드 전문. 대시보드 및 데이터 시각화 경험 풍부.\n"
-            "\n"
-            "[프로젝트 경험]\n"
-            "기아차(2024~2025): 판매 통계 대시보드 개발. Recharts 기반 실시간 차트 구현. 포지션: 프론트 리드.\n"
-            "현대카드(2022~2024): 결제 현황 모니터링 화면 개발. 포지션: 프론트엔드 개발자.\n"
-            "NHN(2019~2022): 어드민 포털 React 전환. 포지션: 프론트엔드 개발자."
-        ),
+        capability_text="Go / Gin / PostgreSQL / gRPC / Prometheus / Grafana\n\nAWS SAA",
+        experience_text="[소개]\n5년차 커머스 플랫폼 개발자. 제조, 물류, 금융 도메인 경험을 바탕으로 안정적인 서비스를 구축한 개발자.\n\n[프로젝트 경험]\n직방(2024~2025): 매물 관리 백오피스 개발. 권한 체계 정비와 검색 응답 속도 개선.\n신한은행(2022~2024): 기업뱅킹 API 플랫폼 구축. 내부 연계 표준화와 배포 자동화 정착.\n삼성SDS(2020~2022): 물류 운영 시스템 백엔드 개발. 정산 배치 안정화와 장애 대응 체계 수립.\n\n[경력]\n스타트업에서 풀스택 개발과 운영 자동화를 맡으며 빠른 실행력을 키웠다.",
     ),
     EngineerProfile(
-        engineer_id="eng-004",
+        engineer_id="eng-033",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Java / Spring Cloud / Kafka / MongoDB / Elasticsearch / Docker\n\n리눅스마스터 2급",
+        experience_text="[소개]\n5년차 핀테크 백엔드 개발자. 대시보드, 관리자 화면, 실시간 데이터 처리 경험이 풍부한 개발자.\n\n[프로젝트 경험]\n컬리(2024~2025): 정산·프로모션 엔진 개발. 배치 재처리 기능 추가로 운영 효율 향상.\nCJ올리브영(2022~2024): 멤버십 서비스 개편. 쿠폰 정합성 검증 로직 강화.\nLG CNS(2020~2022): 제조 MES 연동 서비스 개발. Oracle 쿼리 튜닝으로 주요 조회 성능 개선.\n\n[경력]\n플랫폼 조직에서 공통 모듈과 개발 표준을 정비한 경험이 있다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-034",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Flutter / Dart / Firebase / REST API / Figma / GitHub Actions\n\nADsP",
+        experience_text="[소개]\n5년차 웹 애플리케이션 개발자. API 설계와 성능 개선을 반복적으로 수행해 온 문제 해결형 개발자.\n\n[프로젝트 경험]\n현대카드(2024~2025): 결제 승인 시스템 고도화. 승인 응답 시간 안정화와 장애 포인트 축소.\n현대오토에버(2022~2024): 차량 데이터 수집 플랫폼 API 개발. 실시간 적재 파이프라인 구축과 배치 처리 시간 35% 단축.\n네이버(2020~2022): 광고 리포트 관리자 화면 개발. 대용량 차트 렌더링 최적화.\n\n[경력]\n사내 레거시 서비스 개선 프로젝트를 통해 안정적인 전환 작업을 수행했다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-035",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Kotlin / Android / Jetpack Compose / Retrofit / Room / Firebase\n\n정보처리기사",
+        experience_text="[소개]\n5년차 모바일 앱 개발자. MSA 전환, 클라우드 운영, 배포 자동화 경험을 함께 보유한 개발자.\n\n[프로젝트 경험]\n신한은행(2024~2025): 기업뱅킹 API 플랫폼 구축. 내부 연계 표준화와 배포 자동화 정착.\n삼성SDS(2022~2024): 물류 운영 시스템 백엔드 개발. 정산 배치 안정화와 장애 대응 체계 수립.\n카카오(2020~2022): 사용자 활동 분석 API 개발. 이벤트 수집 구조 개선으로 데이터 유실률 감소.\n\n[경력]\n도메인 조직과 협업하며 요구사항을 기술 설계로 구체화하는 역할을 맡아 왔다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-036",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="TypeScript / React Native / Redux Toolkit / Expo / Firebase / Jest\n\nSQLD",
+        experience_text="[소개]\n5년차 DevOps 엔지니어. 요구사항 분석부터 운영 안정화까지 전 과정을 폭넓게 수행한 개발자.\n\n[프로젝트 경험]\nCJ올리브영(2024~2025): 멤버십 서비스 개편. 쿠폰 정합성 검증 로직 강화.\nLG CNS(2022~2024): 제조 MES 연동 서비스 개발. Oracle 쿼리 튜닝으로 주요 조회 성능 개선.\n쿠팡(2020~2022): 주문·배송 도메인 서비스 개발. 비동기 처리 구조 도입으로 피크 시간대 안정성 확보.\n\n[경력]\nSI 프로젝트에서 커머스와 제조 백엔드 개발을 담당하며 기본기를 다졌다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-037",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Java / Spring Boot / Spring Batch / PostgreSQL / Redis / Docker\n\n정보처리기사",
+        experience_text="[소개]\n5년차 백엔드 아키텍트. 대규모 트래픽 서비스 설계와 운영에 강점이 있는 개발자.\n\n[프로젝트 경험]\n현대오토에버(2024~2025): 차량 데이터 수집 플랫폼 API 개발. 실시간 적재 파이프라인 구축과 배치 처리 시간 35% 단축.\n네이버(2022~2024): 광고 리포트 관리자 화면 개발. 대용량 차트 렌더링 최적화.\n배달의민족(2020~2022): 매장 운영 백오피스 개발. 운영 도구 개선으로 CS 처리 시간 단축.\n\n[경력]\n스타트업에서 풀스택 개발과 운영 자동화를 맡으며 빠른 실행력을 키웠다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-038",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Java / Kotlin / Spring Boot / MySQL / Kafka / AWS\n\nSQLD",
+        experience_text="[소개]\n5년차 백엔드 개발자. 제조, 물류, 금융 도메인 경험을 바탕으로 안정적인 서비스를 구축한 개발자.\n\n[프로젝트 경험]\n삼성SDS(2024~2025): 물류 운영 시스템 백엔드 개발. 정산 배치 안정화와 장애 대응 체계 수립.\n카카오(2022~2024): 사용자 활동 분석 API 개발. 이벤트 수집 구조 개선으로 데이터 유실률 감소.\n토스(2020~2022): 금융 상품 가입 프로세스 개발. 인증 및 심사 API 연동 품질 향상.\n\n[경력]\n플랫폼 조직에서 공통 모듈과 개발 표준을 정비한 경험이 있다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-039",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Python / FastAPI / PostgreSQL / Docker / Kubernetes / Celery\n\nAWS SAA",
+        experience_text="[소개]\n5년차 프론트엔드 개발자. 대시보드, 관리자 화면, 실시간 데이터 처리 경험이 풍부한 개발자.\n\n[프로젝트 경험]\nLG CNS(2024~2025): 제조 MES 연동 서비스 개발. Oracle 쿼리 튜닝으로 주요 조회 성능 개선.\n쿠팡(2022~2024): 주문·배송 도메인 서비스 개발. 비동기 처리 구조 도입으로 피크 시간대 안정성 확보.\n당근(2020~2022): 지역 서비스 추천 기능 개발. A/B 테스트 기반 추천 로직 개선.\n\n[경력]\n사내 레거시 서비스 개선 프로젝트를 통해 안정적인 전환 작업을 수행했다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-040",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Python / Django / MySQL / Redis / Celery / AWS\n\n리눅스마스터 2급",
+        experience_text="[소개]\n5년차 풀스택 개발자. API 설계와 성능 개선을 반복적으로 수행해 온 문제 해결형 개발자.\n\n[프로젝트 경험]\n네이버(2024~2025): 광고 리포트 관리자 화면 개발. 대용량 차트 렌더링 최적화.\n배달의민족(2022~2024): 매장 운영 백오피스 개발. 운영 도구 개선으로 CS 처리 시간 단축.\n무신사(2020~2022): 프로모션·쿠폰 서비스 개발. 트래픽 급증 구간 캐시 전략 적용.\n\n[경력]\n도메인 조직과 협업하며 요구사항을 기술 설계로 구체화하는 역할을 맡아 왔다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-041",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Node.js / NestJS / TypeScript / PostgreSQL / Redis / Swagger\n\nADsP",
+        experience_text="[소개]\n5년차 데이터 플랫폼 개발자. MSA 전환, 클라우드 운영, 배포 자동화 경험을 함께 보유한 개발자.\n\n[프로젝트 경험]\n카카오(2024~2025): 사용자 활동 분석 API 개발. 이벤트 수집 구조 개선으로 데이터 유실률 감소.\n토스(2022~2024): 금융 상품 가입 프로세스 개발. 인증 및 심사 API 연동 품질 향상.\nSK하이닉스(2020~2022): 생산 모니터링 시스템 개발. 이벤트 기반 알림 구조 도입.\n\n[경력]\nSI 프로젝트에서 커머스와 제조 백엔드 개발을 담당하며 기본기를 다졌다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-042",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="React / TypeScript / Next.js / TanStack Query / Storybook / Figma\n\n정보처리기사",
+        experience_text="[소개]\n5년차 클라우드 플랫폼 개발자. 요구사항 분석부터 운영 안정화까지 전 과정을 폭넓게 수행한 개발자.\n\n[프로젝트 경험]\n쿠팡(2024~2025): 주문·배송 도메인 서비스 개발. 비동기 처리 구조 도입으로 피크 시간대 안정성 확보.\n당근(2022~2024): 지역 서비스 추천 기능 개발. A/B 테스트 기반 추천 로직 개선.\n포스코DX(2020~2022): 스마트팩토리 데이터 허브 개발. 현장 설비 데이터 표준화와 API 제공.\n\n[경력]\n스타트업에서 풀스택 개발과 운영 자동화를 맡으며 빠른 실행력을 키웠다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-043",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="React / Vue.js / TypeScript / Vite / Chart.js / Pinia\n\nSQLD",
+        experience_text="[소개]\n5년차 AI 서비스 개발자. 대규모 트래픽 서비스 설계와 운영에 강점이 있는 개발자.\n\n[프로젝트 경험]\n배달의민족(2024~2025): 매장 운영 백오피스 개발. 운영 도구 개선으로 CS 처리 시간 단축.\n무신사(2022~2024): 프로모션·쿠폰 서비스 개발. 트래픽 급증 구간 캐시 전략 적용.\n야놀자(2020~2022): 숙박 예약 관리자 포털 개발. 운영 화면 공통 컴포넌트화.\n\n[경력]\n플랫폼 조직에서 공통 모듈과 개발 표준을 정비한 경험이 있다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-044",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Go / Gin / PostgreSQL / gRPC / Prometheus / Grafana\n\nAWS SAA",
+        experience_text="[소개]\n5년차 커머스 플랫폼 개발자. 제조, 물류, 금융 도메인 경험을 바탕으로 안정적인 서비스를 구축한 개발자.\n\n[프로젝트 경험]\n토스(2024~2025): 금융 상품 가입 프로세스 개발. 인증 및 심사 API 연동 품질 향상.\nSK하이닉스(2022~2024): 생산 모니터링 시스템 개발. 이벤트 기반 알림 구조 도입.\n직방(2020~2022): 매물 관리 백오피스 개발. 권한 체계 정비와 검색 응답 속도 개선.\n\n[경력]\n사내 레거시 서비스 개선 프로젝트를 통해 안정적인 전환 작업을 수행했다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-045",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Java / Spring Cloud / Kafka / MongoDB / Elasticsearch / Docker\n\n리눅스마스터 2급",
+        experience_text="[소개]\n5년차 핀테크 백엔드 개발자. 대시보드, 관리자 화면, 실시간 데이터 처리 경험이 풍부한 개발자.\n\n[프로젝트 경험]\n당근(2024~2025): 지역 서비스 추천 기능 개발. A/B 테스트 기반 추천 로직 개선.\n포스코DX(2022~2024): 스마트팩토리 데이터 허브 개발. 현장 설비 데이터 표준화와 API 제공.\n컬리(2020~2022): 정산·프로모션 엔진 개발. 배치 재처리 기능 추가로 운영 효율 향상.\n\n[경력]\n도메인 조직과 협업하며 요구사항을 기술 설계로 구체화하는 역할을 맡아 왔다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-046",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Flutter / Dart / Firebase / REST API / Figma / GitHub Actions\n\nADsP",
+        experience_text="[소개]\n5년차 웹 애플리케이션 개발자. API 설계와 성능 개선을 반복적으로 수행해 온 문제 해결형 개발자.\n\n[프로젝트 경험]\n무신사(2024~2025): 프로모션·쿠폰 서비스 개발. 트래픽 급증 구간 캐시 전략 적용.\n야놀자(2022~2024): 숙박 예약 관리자 포털 개발. 운영 화면 공통 컴포넌트화.\n현대카드(2020~2022): 결제 승인 시스템 고도화. 승인 응답 시간 안정화와 장애 포인트 축소.\n\n[경력]\nSI 프로젝트에서 커머스와 제조 백엔드 개발을 담당하며 기본기를 다졌다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-047",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="Kotlin / Android / Jetpack Compose / Retrofit / Room / Firebase\n\n정보처리기사",
+        experience_text="[소개]\n5년차 모바일 앱 개발자. MSA 전환, 클라우드 운영, 배포 자동화 경험을 함께 보유한 개발자.\n\n[프로젝트 경험]\nSK하이닉스(2024~2025): 생산 모니터링 시스템 개발. 이벤트 기반 알림 구조 도입.\n직방(2022~2024): 매물 관리 백오피스 개발. 권한 체계 정비와 검색 응답 속도 개선.\n신한은행(2020~2022): 기업뱅킹 API 플랫폼 구축. 내부 연계 표준화와 배포 자동화 정착.\n\n[경력]\n스타트업에서 풀스택 개발과 운영 자동화를 맡으며 빠른 실행력을 키웠다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-048",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FULL_TIME",
+        capability_text="TypeScript / React Native / Redux Toolkit / Expo / Firebase / Jest\n\nSQLD",
+        experience_text="[소개]\n5년차 DevOps 엔지니어. 요구사항 분석부터 운영 안정화까지 전 과정을 폭넓게 수행한 개발자.\n\n[프로젝트 경험]\n포스코DX(2024~2025): 스마트팩토리 데이터 허브 개발. 현장 설비 데이터 표준화와 API 제공.\n컬리(2022~2024): 정산·프로모션 엔진 개발. 배치 재처리 기능 추가로 운영 효율 향상.\nCJ올리브영(2020~2022): 멤버십 서비스 개편. 쿠폰 정합성 검증 로직 강화.\n\n[경력]\n플랫폼 조직에서 공통 모듈과 개발 표준을 정비한 경험이 있다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-049",
         grade="INTERMEDIATE",
         status="AVAILABLE",
         engineer_role="DEVELOPER",
         employment_type="FREELANCER",
-        capability_text=(
-            "React / JavaScript / Vue.js / Chart.js / CSS / Webpack"
-        ),
-        experience_text=(
-            "[소개]\n"
-            "제조/광고 도메인 프론트엔드 개발. 차트 기반 대시보드 경험.\n"
-            "\n"
-            "[프로젝트 경험]\n"
-            "포스코(2024~2025): 생산 현황 모니터링 대시보드 개발. Chart.js 활용. 포지션: 프론트엔드 개발자.\n"
-            "네이버(2022~2024): 광고 성과 리포트 화면 개발. 포지션: 프론트엔드 개발자.\n"
-            "에이전시(2021~2022): 다수 기업 웹사이트 퍼블리싱. 포지션: 퍼블리셔."
-        ),
+        capability_text="Java / Spring Boot / Spring Batch / PostgreSQL / Redis / Docker\n\n정보처리기사",
+        experience_text="[소개]\n5년차 백엔드 아키텍트. 대규모 트래픽 서비스 설계와 운영에 강점이 있는 개발자.\n\n[프로젝트 경험]\n야놀자(2024~2025): 숙박 예약 관리자 포털 개발. 운영 화면 공통 컴포넌트화.\n현대카드(2022~2024): 결제 승인 시스템 고도화. 승인 응답 시간 안정화와 장애 포인트 축소.\n현대오토에버(2020~2022): 차량 데이터 수집 플랫폼 API 개발. 실시간 적재 파이프라인 구축과 배치 처리 시간 35% 단축.\n\n[경력]\n사내 레거시 서비스 개선 프로젝트를 통해 안정적인 전환 작업을 수행했다.",
     ),
     EngineerProfile(
-        engineer_id="eng-005",
+        engineer_id="eng-050",
         grade="INTERMEDIATE",
         status="AVAILABLE",
         engineer_role="DEVELOPER",
-        employment_type="FULL_TIME",
-        capability_text=(
-            "Python / FastAPI / MongoDB / Docker / Kubernetes / Celery"
-        ),
-        experience_text=(
-            "[소개]\n"
-            "물류/이커머스 도메인 백엔드 개발. MSA 및 컨테이너 오케스트레이션 경험.\n"
-            "\n"
-            "[프로젝트 경험]\n"
-            "쿠팡(2024~2025): 물류 최적화 알고리즘 서버 API 개발. FastAPI 기반 고성능 처리. 포지션: 백엔드 개발자.\n"
-            "배달의민족(2022~2024): 주문 관리 시스템 유지보수. MSA 환경에서 서비스 간 통신 최적화. 포지션: 백엔드 개발자.\n"
-            "테크 스타트업(2021~2022): 실시간 채팅 서버 구축. 포지션: 백엔드 개발자."
-        ),
+        employment_type="FREELANCER",
+        capability_text="Java / Kotlin / Spring Boot / MySQL / Kafka / AWS\n\nSQLD",
+        experience_text="[소개]\n5년차 백엔드 개발자. 제조, 물류, 금융 도메인 경험을 바탕으로 안정적인 서비스를 구축한 개발자.\n\n[프로젝트 경험]\n직방(2024~2025): 매물 관리 백오피스 개발. 권한 체계 정비와 검색 응답 속도 개선.\n신한은행(2022~2024): 기업뱅킹 API 플랫폼 구축. 내부 연계 표준화와 배포 자동화 정착.\n삼성SDS(2020~2022): 물류 운영 시스템 백엔드 개발. 정산 배치 안정화와 장애 대응 체계 수립.\n\n[경력]\n도메인 조직과 협업하며 요구사항을 기술 설계로 구체화하는 역할을 맡아 왔다.",
     ),
     EngineerProfile(
-        engineer_id="pub-001",
+        engineer_id="eng-051",
+        grade="JUNIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FREELANCER",
+        capability_text="Python / FastAPI / PostgreSQL / Docker / Kubernetes / Celery\n\nAWS SAA",
+        experience_text="[소개]\n2년차 프론트엔드 개발자. 대시보드, 관리자 화면, 실시간 데이터 처리 경험이 풍부한 개발자.\n\n[프로젝트 경험]\n컬리(2024~2025): 정산·프로모션 엔진 개발. 배치 재처리 기능 추가로 운영 효율 향상.\nCJ올리브영(2022~2024): 멤버십 서비스 개편. 쿠폰 정합성 검증 로직 강화.\nLG CNS(2020~2022): 제조 MES 연동 서비스 개발. Oracle 쿼리 튜닝으로 주요 조회 성능 개선.\n\n[경력]\nSI 프로젝트에서 커머스와 제조 백엔드 개발을 담당하며 기본기를 다졌다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-052",
+        grade="JUNIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FREELANCER",
+        capability_text="Python / Django / MySQL / Redis / Celery / AWS\n\n리눅스마스터 2급",
+        experience_text="[소개]\n2년차 풀스택 개발자. API 설계와 성능 개선을 반복적으로 수행해 온 문제 해결형 개발자.\n\n[프로젝트 경험]\n현대카드(2024~2025): 결제 승인 시스템 고도화. 승인 응답 시간 안정화와 장애 포인트 축소.\n현대오토에버(2022~2024): 차량 데이터 수집 플랫폼 API 개발. 실시간 적재 파이프라인 구축과 배치 처리 시간 35% 단축.\n네이버(2020~2022): 광고 리포트 관리자 화면 개발. 대용량 차트 렌더링 최적화.\n\n[경력]\n스타트업에서 풀스택 개발과 운영 자동화를 맡으며 빠른 실행력을 키웠다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-053",
+        grade="JUNIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FREELANCER",
+        capability_text="Node.js / NestJS / TypeScript / PostgreSQL / Redis / Swagger\n\nADsP",
+        experience_text="[소개]\n2년차 데이터 플랫폼 개발자. MSA 전환, 클라우드 운영, 배포 자동화 경험을 함께 보유한 개발자.\n\n[프로젝트 경험]\n신한은행(2024~2025): 기업뱅킹 API 플랫폼 구축. 내부 연계 표준화와 배포 자동화 정착.\n삼성SDS(2022~2024): 물류 운영 시스템 백엔드 개발. 정산 배치 안정화와 장애 대응 체계 수립.\n카카오(2020~2022): 사용자 활동 분석 API 개발. 이벤트 수집 구조 개선으로 데이터 유실률 감소.\n\n[경력]\n플랫폼 조직에서 공통 모듈과 개발 표준을 정비한 경험이 있다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-054",
+        grade="JUNIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FREELANCER",
+        capability_text="React / TypeScript / Next.js / TanStack Query / Storybook / Figma\n\n정보처리기사",
+        experience_text="[소개]\n2년차 클라우드 플랫폼 개발자. 요구사항 분석부터 운영 안정화까지 전 과정을 폭넓게 수행한 개발자.\n\n[프로젝트 경험]\nCJ올리브영(2024~2025): 멤버십 서비스 개편. 쿠폰 정합성 검증 로직 강화.\nLG CNS(2022~2024): 제조 MES 연동 서비스 개발. Oracle 쿼리 튜닝으로 주요 조회 성능 개선.\n쿠팡(2020~2022): 주문·배송 도메인 서비스 개발. 비동기 처리 구조 도입으로 피크 시간대 안정성 확보.\n\n[경력]\n사내 레거시 서비스 개선 프로젝트를 통해 안정적인 전환 작업을 수행했다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-055",
+        grade="JUNIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FREELANCER",
+        capability_text="React / Vue.js / TypeScript / Vite / Chart.js / Pinia\n\nSQLD",
+        experience_text="[소개]\n2년차 AI 서비스 개발자. 대규모 트래픽 서비스 설계와 운영에 강점이 있는 개발자.\n\n[프로젝트 경험]\n현대오토에버(2024~2025): 차량 데이터 수집 플랫폼 API 개발. 실시간 적재 파이프라인 구축과 배치 처리 시간 35% 단축.\n네이버(2022~2024): 광고 리포트 관리자 화면 개발. 대용량 차트 렌더링 최적화.\n배달의민족(2020~2022): 매장 운영 백오피스 개발. 운영 도구 개선으로 CS 처리 시간 단축.\n\n[경력]\n도메인 조직과 협업하며 요구사항을 기술 설계로 구체화하는 역할을 맡아 왔다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-056",
+        grade="JUNIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FREELANCER",
+        capability_text="Go / Gin / PostgreSQL / gRPC / Prometheus / Grafana\n\nAWS SAA",
+        experience_text="[소개]\n2년차 커머스 플랫폼 개발자. 제조, 물류, 금융 도메인 경험을 바탕으로 안정적인 서비스를 구축한 개발자.\n\n[프로젝트 경험]\n삼성SDS(2024~2025): 물류 운영 시스템 백엔드 개발. 정산 배치 안정화와 장애 대응 체계 수립.\n카카오(2022~2024): 사용자 활동 분석 API 개발. 이벤트 수집 구조 개선으로 데이터 유실률 감소.\n토스(2020~2022): 금융 상품 가입 프로세스 개발. 인증 및 심사 API 연동 품질 향상.\n\n[경력]\nSI 프로젝트에서 커머스와 제조 백엔드 개발을 담당하며 기본기를 다졌다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-057",
+        grade="JUNIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FREELANCER",
+        capability_text="Java / Spring Cloud / Kafka / MongoDB / Elasticsearch / Docker\n\n리눅스마스터 2급",
+        experience_text="[소개]\n2년차 핀테크 백엔드 개발자. 대시보드, 관리자 화면, 실시간 데이터 처리 경험이 풍부한 개발자.\n\n[프로젝트 경험]\nLG CNS(2024~2025): 제조 MES 연동 서비스 개발. Oracle 쿼리 튜닝으로 주요 조회 성능 개선.\n쿠팡(2022~2024): 주문·배송 도메인 서비스 개발. 비동기 처리 구조 도입으로 피크 시간대 안정성 확보.\n당근(2020~2022): 지역 서비스 추천 기능 개발. A/B 테스트 기반 추천 로직 개선.\n\n[경력]\n스타트업에서 풀스택 개발과 운영 자동화를 맡으며 빠른 실행력을 키웠다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-058",
+        grade="JUNIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FREELANCER",
+        capability_text="Flutter / Dart / Firebase / REST API / Figma / GitHub Actions\n\nADsP",
+        experience_text="[소개]\n2년차 웹 애플리케이션 개발자. API 설계와 성능 개선을 반복적으로 수행해 온 문제 해결형 개발자.\n\n[프로젝트 경험]\n네이버(2024~2025): 광고 리포트 관리자 화면 개발. 대용량 차트 렌더링 최적화.\n배달의민족(2022~2024): 매장 운영 백오피스 개발. 운영 도구 개선으로 CS 처리 시간 단축.\n무신사(2020~2022): 프로모션·쿠폰 서비스 개발. 트래픽 급증 구간 캐시 전략 적용.\n\n[경력]\n플랫폼 조직에서 공통 모듈과 개발 표준을 정비한 경험이 있다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-059",
+        grade="JUNIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FREELANCER",
+        capability_text="Kotlin / Android / Jetpack Compose / Retrofit / Room / Firebase\n\n정보처리기사",
+        experience_text="[소개]\n2년차 모바일 앱 개발자. MSA 전환, 클라우드 운영, 배포 자동화 경험을 함께 보유한 개발자.\n\n[프로젝트 경험]\n카카오(2024~2025): 사용자 활동 분석 API 개발. 이벤트 수집 구조 개선으로 데이터 유실률 감소.\n토스(2022~2024): 금융 상품 가입 프로세스 개발. 인증 및 심사 API 연동 품질 향상.\nSK하이닉스(2020~2022): 생산 모니터링 시스템 개발. 이벤트 기반 알림 구조 도입.\n\n[경력]\n사내 레거시 서비스 개선 프로젝트를 통해 안정적인 전환 작업을 수행했다.",
+    ),
+    EngineerProfile(
+        engineer_id="eng-060",
+        grade="JUNIOR",
+        status="AVAILABLE",
+        engineer_role="DEVELOPER",
+        employment_type="FREELANCER",
+        capability_text="TypeScript / React Native / Redux Toolkit / Expo / Firebase / Jest\n\nSQLD",
+        experience_text="[소개]\n2년차 DevOps 엔지니어. 요구사항 분석부터 운영 안정화까지 전 과정을 폭넓게 수행한 개발자.\n\n[프로젝트 경험]\n쿠팡(2024~2025): 주문·배송 도메인 서비스 개발. 비동기 처리 구조 도입으로 피크 시간대 안정성 확보.\n당근(2022~2024): 지역 서비스 추천 기능 개발. A/B 테스트 기반 추천 로직 개선.\n포스코DX(2020~2022): 스마트팩토리 데이터 허브 개발. 현장 설비 데이터 표준화와 API 제공.\n\n[경력]\n도메인 조직과 협업하며 요구사항을 기술 설계로 구체화하는 역할을 맡아 왔다.",
+    ),
+    EngineerProfile(
+        engineer_id="des-001",
+        grade="EXPERT",
+        status="AVAILABLE",
+        engineer_role="DESIGNER",
+        employment_type="FULL_TIME",
+        capability_text="Figma / FigJam / Photoshop / Illustrator / ProtoPie / Zeplin\n\nGTQ 1급",
+        experience_text="[소개]\n12년차 UX 디자이너. 서비스 흐름 개선과 디자인 시스템 구축 경험이 풍부한 디자이너.\n\n[프로젝트 경험]\n토스(2024~2025): 신규 금융 상품 가입 UX 개선. 가입 이탈률 감소와 핵심 과업 완료율 상승.\n무신사(2022~2024): 프로모션 허브 화면 설계. 콘텐츠 소비 동선 정리.\n컬리(2020~2022): 장바구니·결제 UX 개선. 결제 완료율 향상.\n\n[경력]\n에이전시에서 브랜드 사이트와 모바일 앱 프로젝트를 다수 수행했다.",
+    ),
+    EngineerProfile(
+        engineer_id="des-002",
+        grade="EXPERT",
+        status="AVAILABLE",
+        engineer_role="DESIGNER",
+        employment_type="FULL_TIME",
+        capability_text="Figma / After Effects / Illustrator / Maze / Notion / Jira\n\n웹디자인기능사",
+        experience_text="[소개]\n12년차 UI 디자이너. 사용자 리서치 기반으로 문제를 정의하고 화면 구조를 설계하는 디자이너.\n\n[프로젝트 경험]\n야놀자(2024~2025): 숙소 상세·예약 화면 UI 리뉴얼. 모바일 전환율 개선.\n직방(2022~2024): 매물 상세 정보 구조 재설계. 핵심 정보 인지 속도 개선.\n당근(2020~2022): 지역 피드 탐색 경험 개편. 콘텐츠 탐색 전환율 개선.\n\n[경력]\n사내 프로덕트 조직에서 리서치와 디자인 시스템 운영을 병행했다.",
+    ),
+    EngineerProfile(
+        engineer_id="des-003",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DESIGNER",
+        employment_type="FULL_TIME",
+        capability_text="Sketch / Figma / Principle / Photoshop / Zeplin / Miro\n\n없음",
+        experience_text="[소개]\n8년차 프로덕트 디자이너. 금융, 커머스, 콘텐츠 서비스에서 일관된 UI 품질을 만들어 온 디자이너.\n\n[프로젝트 경험]\n오늘의집(2024~2025): 검색 및 탐색 경험 개편. 필터 사용성과 정보 구조 개선.\n카카오페이(2022~2024): 송금 프로세스 디자인 시스템 반영. 일관된 컴포넌트 적용.\n토스(2020~2022): 신규 금융 상품 가입 UX 개선. 가입 이탈률 감소와 핵심 과업 완료율 상승.\n\n[경력]\n스타트업에서 PM, 개발자와 밀접하게 협업하며 서비스 초기 구조를 설계했다.",
+    ),
+    EngineerProfile(
+        engineer_id="des-004",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DESIGNER",
+        employment_type="FULL_TIME",
+        capability_text="Figma / Adobe XD / Illustrator / GA4 / Hotjar / Notion\n\nGTQ 1급",
+        experience_text="[소개]\n8년차 브랜드 디자이너. 복잡한 업무 프로세스를 이해하기 쉬운 화면 구조로 풀어내는 디자이너.\n\n[프로젝트 경험]\n무신사(2024~2025): 프로모션 허브 화면 설계. 콘텐츠 소비 동선 정리.\n컬리(2022~2024): 장바구니·결제 UX 개선. 결제 완료율 향상.\n야놀자(2020~2022): 숙소 상세·예약 화면 UI 리뉴얼. 모바일 전환율 개선.\n\n[경력]\n정량·정성 데이터를 함께 보며 화면 우선순위를 조정해 온 경험이 있다.",
+    ),
+    EngineerProfile(
+        engineer_id="des-005",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DESIGNER",
+        employment_type="FULL_TIME",
+        capability_text="Figma / FigJam / Dovetail / Excel / Notion / Confluence\n\n없음",
+        experience_text="[소개]\n8년차 UX 리서처. 서비스 흐름 개선과 디자인 시스템 구축 경험이 풍부한 디자이너.\n\n[프로젝트 경험]\n직방(2024~2025): 매물 상세 정보 구조 재설계. 핵심 정보 인지 속도 개선.\n당근(2022~2024): 지역 피드 탐색 경험 개편. 콘텐츠 탐색 전환율 개선.\n오늘의집(2020~2022): 검색 및 탐색 경험 개편. 필터 사용성과 정보 구조 개선.\n\n[경력]\n에이전시에서 브랜드 사이트와 모바일 앱 프로젝트를 다수 수행했다.",
+    ),
+    EngineerProfile(
+        engineer_id="des-006",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="DESIGNER",
+        employment_type="FULL_TIME",
+        capability_text="Figma / FigJam / Photoshop / Illustrator / ProtoPie / Zeplin\n\nGTQ 1급",
+        experience_text="[소개]\n8년차 UX 디자이너. 사용자 리서치 기반으로 문제를 정의하고 화면 구조를 설계하는 디자이너.\n\n[프로젝트 경험]\n카카오페이(2024~2025): 송금 프로세스 디자인 시스템 반영. 일관된 컴포넌트 적용.\n토스(2022~2024): 신규 금융 상품 가입 UX 개선. 가입 이탈률 감소와 핵심 과업 완료율 상승.\n무신사(2020~2022): 프로모션 허브 화면 설계. 콘텐츠 소비 동선 정리.\n\n[경력]\n사내 프로덕트 조직에서 리서치와 디자인 시스템 운영을 병행했다.",
+    ),
+    EngineerProfile(
+        engineer_id="des-007",
         grade="INTERMEDIATE",
         status="AVAILABLE",
-        engineer_role="PUBLISHER",
+        engineer_role="DESIGNER",
         employment_type="FULL_TIME",
-        capability_text=(
-            "HTML5 / CSS3 / SCSS / jQuery / Gulp / Cross Browsing / 웹 접근성"
-        ),
-        experience_text=(
-            "[소개]\n"
-            "반응형 웹 퍼블리싱 전문. 웹 접근성(WA) 인증 경험.\n"
-            "\n"
-            "[프로젝트 경험]\n"
-            "아모레퍼시픽(2024~2025): 공식 온라인몰 반응형 웹 리뉴얼. 웹 접근성(WA) 인증 획득. 포지션: 시니어 퍼블리셔.\n"
-            "무신사(2022~2024): 프로모션 페이지 제작 및 이벤트 인터랙션 구현. 포지션: 퍼블리셔.\n"
-            "웹 에이전시(2020~2022): 다수의 브랜드 사이트 구축 및 유지보수. 포지션: 시니어 퍼블리셔."
-        ),
+        capability_text="Figma / After Effects / Illustrator / Maze / Notion / Jira\n\n웹디자인기능사",
+        experience_text="[소개]\n5년차 UI 디자이너. 금융, 커머스, 콘텐츠 서비스에서 일관된 UI 품질을 만들어 온 디자이너.\n\n[프로젝트 경험]\n컬리(2024~2025): 장바구니·결제 UX 개선. 결제 완료율 향상.\n야놀자(2022~2024): 숙소 상세·예약 화면 UI 리뉴얼. 모바일 전환율 개선.\n직방(2020~2022): 매물 상세 정보 구조 재설계. 핵심 정보 인지 속도 개선.\n\n[경력]\n스타트업에서 PM, 개발자와 밀접하게 협업하며 서비스 초기 구조를 설계했다.",
+    ),
+    EngineerProfile(
+        engineer_id="des-008",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DESIGNER",
+        employment_type="FULL_TIME",
+        capability_text="Sketch / Figma / Principle / Photoshop / Zeplin / Miro\n\n없음",
+        experience_text="[소개]\n5년차 프로덕트 디자이너. 복잡한 업무 프로세스를 이해하기 쉬운 화면 구조로 풀어내는 디자이너.\n\n[프로젝트 경험]\n당근(2024~2025): 지역 피드 탐색 경험 개편. 콘텐츠 탐색 전환율 개선.\n오늘의집(2022~2024): 검색 및 탐색 경험 개편. 필터 사용성과 정보 구조 개선.\n카카오페이(2020~2022): 송금 프로세스 디자인 시스템 반영. 일관된 컴포넌트 적용.\n\n[경력]\n정량·정성 데이터를 함께 보며 화면 우선순위를 조정해 온 경험이 있다.",
+    ),
+    EngineerProfile(
+        engineer_id="des-009",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DESIGNER",
+        employment_type="FREELANCER",
+        capability_text="Figma / Adobe XD / Illustrator / GA4 / Hotjar / Notion\n\nGTQ 1급",
+        experience_text="[소개]\n5년차 브랜드 디자이너. 서비스 흐름 개선과 디자인 시스템 구축 경험이 풍부한 디자이너.\n\n[프로젝트 경험]\n토스(2024~2025): 신규 금융 상품 가입 UX 개선. 가입 이탈률 감소와 핵심 과업 완료율 상승.\n무신사(2022~2024): 프로모션 허브 화면 설계. 콘텐츠 소비 동선 정리.\n컬리(2020~2022): 장바구니·결제 UX 개선. 결제 완료율 향상.\n\n[경력]\n에이전시에서 브랜드 사이트와 모바일 앱 프로젝트를 다수 수행했다.",
+    ),
+    EngineerProfile(
+        engineer_id="des-010",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="DESIGNER",
+        employment_type="FREELANCER",
+        capability_text="Figma / FigJam / Dovetail / Excel / Notion / Confluence\n\n없음",
+        experience_text="[소개]\n5년차 UX 리서처. 사용자 리서치 기반으로 문제를 정의하고 화면 구조를 설계하는 디자이너.\n\n[프로젝트 경험]\n야놀자(2024~2025): 숙소 상세·예약 화면 UI 리뉴얼. 모바일 전환율 개선.\n직방(2022~2024): 매물 상세 정보 구조 재설계. 핵심 정보 인지 속도 개선.\n당근(2020~2022): 지역 피드 탐색 경험 개편. 콘텐츠 탐색 전환율 개선.\n\n[경력]\n사내 프로덕트 조직에서 리서치와 디자인 시스템 운영을 병행했다.",
+    ),
+    EngineerProfile(
+        engineer_id="des-011",
+        grade="JUNIOR",
+        status="AVAILABLE",
+        engineer_role="DESIGNER",
+        employment_type="FREELANCER",
+        capability_text="Figma / FigJam / Photoshop / Illustrator / ProtoPie / Zeplin\n\nGTQ 1급",
+        experience_text="[소개]\n2년차 UX 디자이너. 금융, 커머스, 콘텐츠 서비스에서 일관된 UI 품질을 만들어 온 디자이너.\n\n[프로젝트 경험]\n오늘의집(2024~2025): 검색 및 탐색 경험 개편. 필터 사용성과 정보 구조 개선.\n카카오페이(2022~2024): 송금 프로세스 디자인 시스템 반영. 일관된 컴포넌트 적용.\n토스(2020~2022): 신규 금융 상품 가입 UX 개선. 가입 이탈률 감소와 핵심 과업 완료율 상승.\n\n[경력]\n스타트업에서 PM, 개발자와 밀접하게 협업하며 서비스 초기 구조를 설계했다.",
+    ),
+    EngineerProfile(
+        engineer_id="des-012",
+        grade="JUNIOR",
+        status="AVAILABLE",
+        engineer_role="DESIGNER",
+        employment_type="FREELANCER",
+        capability_text="Figma / After Effects / Illustrator / Maze / Notion / Jira\n\n웹디자인기능사",
+        experience_text="[소개]\n2년차 UI 디자이너. 복잡한 업무 프로세스를 이해하기 쉬운 화면 구조로 풀어내는 디자이너.\n\n[프로젝트 경험]\n무신사(2024~2025): 프로모션 허브 화면 설계. 콘텐츠 소비 동선 정리.\n컬리(2022~2024): 장바구니·결제 UX 개선. 결제 완료율 향상.\n야놀자(2020~2022): 숙소 상세·예약 화면 UI 리뉴얼. 모바일 전환율 개선.\n\n[경력]\n정량·정성 데이터를 함께 보며 화면 우선순위를 조정해 온 경험이 있다.",
     ),
     EngineerProfile(
         engineer_id="qa-001",
+        grade="EXPERT",
+        status="AVAILABLE",
+        engineer_role="QA",
+        employment_type="FULL_TIME",
+        capability_text="Selenium / Appium / JMeter / Jira / Confluence / TestRail\n\nISTQB CTFL",
+        experience_text="[소개]\n12년차 QA 엔지니어. 테스트 자동화와 릴리즈 품질 관리 경험이 풍부한 QA 엔지니어.\n\n[프로젝트 경험]\n카카오뱅크(2024~2025): 모바일 앱 회귀 테스트 자동화. 배포 전 검증 리드타임 단축.\n토스증권(2022~2024): 주식 거래 앱 E2E 테스트 구축. 핵심 거래 시나리오 자동화.\n현대카드(2020~2022): 결제 단말 연계 검증. 릴리즈 체크리스트 표준화.\n\n[경력]\nSI 프로젝트에서 수동 테스트와 결함 관리를 담당하며 QA 기본기를 다졌다.",
+    ),
+    EngineerProfile(
+        engineer_id="qa-002",
         grade="SENIOR",
         status="AVAILABLE",
         engineer_role="QA",
         employment_type="FULL_TIME",
-        capability_text=(
-            "Selenium / Appium / JMeter / Jira / Confluence / TestRail"
-        ),
-        experience_text=(
-            "[소개]\n"
-            "금융/보안 도메인 QA 전문. 테스트 자동화 및 성능 테스트 경험 풍부.\n"
-            "\n"
-            "[프로젝트 경험]\n"
-            "카카오뱅크(2023~2025): 모바일 앱 기능 테스트 및 자동화 스크립트 작성. 안정성 99% 달성. 포지션: QA 리드.\n"
-            "라인(2021~2023): 글로벌 메신저 부하 테스트 진행. 성능 병목 구간 탐색 및 리포트. 포지션: QA 엔지니어.\n"
-            "안랩(2018~2021): 보안 소프트웨어 수동 및 자동화 테스트 진행. 포지션: QA 리드."
-        ),
+        capability_text="Playwright / Python / Jenkins / Allure / PostgreSQL / Grafana\n\nSQLD",
+        experience_text="[소개]\n8년차 테스트 자동화 엔지니어. 금융, 커머스, 모바일 앱 품질 검증과 성능 테스트를 수행한 QA 엔지니어.\n\n[프로젝트 경험]\n라인(2024~2025): 글로벌 메신저 부하 테스트. 병목 구간 식별과 튜닝 가이드 제공.\n배달의민족(2022~2024): 주문·결제 회귀 테스트 운영. 장애 예방 시나리오 확대.\n카카오뱅크(2020~2022): 모바일 앱 회귀 테스트 자동화. 배포 전 검증 리드타임 단축.\n\n[경력]\n사내 QA 조직에서 자동화 프레임워크와 테스트 리포팅 체계를 구축했다.",
     ),
     EngineerProfile(
-        engineer_id="des-001",
+        engineer_id="qa-003",
         grade="SENIOR",
         status="AVAILABLE",
-        engineer_role="DESIGNER",
+        engineer_role="QA",
+        employment_type="FULL_TIME",
+        capability_text="Cypress / TypeScript / GitHub Actions / Jira / BrowserStack / Postman\n\n없음",
+        experience_text="[소개]\n8년차 품질관리 엔지니어. 요구사항 분석부터 테스트 케이스 설계, 결함 관리까지 주도한 QA 엔지니어.\n\n[프로젝트 경험]\n안랩(2024~2025): 보안 솔루션 품질 검증. 결함 재현율 향상과 케이스 표준화.\n쿠팡(2022~2024): 정산 시스템 API 테스트. 계산 로직 검증 체계 정비.\n라인(2020~2022): 글로벌 메신저 부하 테스트. 병목 구간 식별과 튜닝 가이드 제공.\n\n[경력]\n애자일 조직에서 개발자와 함께 요구사항 단계부터 품질 기준을 정의했다.",
+    ),
+    EngineerProfile(
+        engineer_id="qa-004",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="QA",
+        employment_type="FULL_TIME",
+        capability_text="Postman / Newman / k6 / SQL / Slack / Confluence\n\nISTQB CTFL",
+        experience_text="[소개]\n8년차 성능 테스트 엔지니어. 개발 조직과 긴밀히 협업하며 품질 게이트를 정착시켜 온 QA 엔지니어.\n\n[프로젝트 경험]\n토스증권(2024~2025): 주식 거래 앱 E2E 테스트 구축. 핵심 거래 시나리오 자동화.\n현대카드(2022~2024): 결제 단말 연계 검증. 릴리즈 체크리스트 표준화.\n안랩(2020~2022): 보안 솔루션 품질 검증. 결함 재현율 향상과 케이스 표준화.\n\n[경력]\n운영 이슈 분석을 통해 테스트 범위와 회귀 시나리오를 지속적으로 보완했다.",
+    ),
+    EngineerProfile(
+        engineer_id="qa-005",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="QA",
+        employment_type="FULL_TIME",
+        capability_text="Appium / Java / Rest Assured / Jenkins / Jira / TestRail\n\n정보처리기사",
+        experience_text="[소개]\n8년차 QA 엔지니어. 테스트 자동화와 릴리즈 품질 관리 경험이 풍부한 QA 엔지니어.\n\n[프로젝트 경험]\n배달의민족(2024~2025): 주문·결제 회귀 테스트 운영. 장애 예방 시나리오 확대.\n카카오뱅크(2022~2024): 모바일 앱 회귀 테스트 자동화. 배포 전 검증 리드타임 단축.\n토스증권(2020~2022): 주식 거래 앱 E2E 테스트 구축. 핵심 거래 시나리오 자동화.\n\n[경력]\nSI 프로젝트에서 수동 테스트와 결함 관리를 담당하며 QA 기본기를 다졌다.",
+    ),
+    EngineerProfile(
+        engineer_id="qa-006",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="QA",
+        employment_type="FULL_TIME",
+        capability_text="Selenium / Appium / JMeter / Jira / Confluence / TestRail\n\nISTQB CTFL",
+        experience_text="[소개]\n5년차 테스트 자동화 엔지니어. 금융, 커머스, 모바일 앱 품질 검증과 성능 테스트를 수행한 QA 엔지니어.\n\n[프로젝트 경험]\n쿠팡(2024~2025): 정산 시스템 API 테스트. 계산 로직 검증 체계 정비.\n라인(2022~2024): 글로벌 메신저 부하 테스트. 병목 구간 식별과 튜닝 가이드 제공.\n배달의민족(2020~2022): 주문·결제 회귀 테스트 운영. 장애 예방 시나리오 확대.\n\n[경력]\n사내 QA 조직에서 자동화 프레임워크와 테스트 리포팅 체계를 구축했다.",
+    ),
+    EngineerProfile(
+        engineer_id="qa-007",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="QA",
+        employment_type="FULL_TIME",
+        capability_text="Playwright / Python / Jenkins / Allure / PostgreSQL / Grafana\n\nSQLD",
+        experience_text="[소개]\n5년차 품질관리 엔지니어. 요구사항 분석부터 테스트 케이스 설계, 결함 관리까지 주도한 QA 엔지니어.\n\n[프로젝트 경험]\n현대카드(2024~2025): 결제 단말 연계 검증. 릴리즈 체크리스트 표준화.\n안랩(2022~2024): 보안 솔루션 품질 검증. 결함 재현율 향상과 케이스 표준화.\n쿠팡(2020~2022): 정산 시스템 API 테스트. 계산 로직 검증 체계 정비.\n\n[경력]\n애자일 조직에서 개발자와 함께 요구사항 단계부터 품질 기준을 정의했다.",
+    ),
+    EngineerProfile(
+        engineer_id="qa-008",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="QA",
+        employment_type="FULL_TIME",
+        capability_text="Cypress / TypeScript / GitHub Actions / Jira / BrowserStack / Postman\n\n없음",
+        experience_text="[소개]\n5년차 성능 테스트 엔지니어. 개발 조직과 긴밀히 협업하며 품질 게이트를 정착시켜 온 QA 엔지니어.\n\n[프로젝트 경험]\n카카오뱅크(2024~2025): 모바일 앱 회귀 테스트 자동화. 배포 전 검증 리드타임 단축.\n토스증권(2022~2024): 주식 거래 앱 E2E 테스트 구축. 핵심 거래 시나리오 자동화.\n현대카드(2020~2022): 결제 단말 연계 검증. 릴리즈 체크리스트 표준화.\n\n[경력]\n운영 이슈 분석을 통해 테스트 범위와 회귀 시나리오를 지속적으로 보완했다.",
+    ),
+    EngineerProfile(
+        engineer_id="qa-009",
+        grade="JUNIOR",
+        status="AVAILABLE",
+        engineer_role="QA",
         employment_type="FREELANCER",
-        capability_text=(
-            "Figma / Adobe XD / Photoshop / Illustrator / Protopie / Zeplin"
-        ),
-        experience_text=(
-            "[소개]\n"
-            "핀테크/여행 도메인 UX/UI 전문. 디자인 시스템 구축 경험.\n"
-            "\n"
-            "[프로젝트 경험]\n"
-            "토스(2024~2025): 신규 금융 상품 가입 프로세스 UX 개선. 전환율 15% 상승. 포지션: UX 디자이너.\n"
-            "야놀자(2022~2024): 숙박 예약 화면 UI 컴포넌트 시스템 구축 및 가이드라인 제정. 포지션: UI 디자이너.\n"
-            "디자인 스튜디오(2019~2022): 브랜드 아이덴티티(BI) 및 앱 디자인 프로젝트 참여. 포지션: 메인 디자이너."
-        ),
+        capability_text="Postman / Newman / k6 / SQL / Slack / Confluence\n\nISTQB CTFL",
+        experience_text="[소개]\n2년차 QA 엔지니어. 테스트 자동화와 릴리즈 품질 관리 경험이 풍부한 QA 엔지니어.\n\n[프로젝트 경험]\n라인(2024~2025): 글로벌 메신저 부하 테스트. 병목 구간 식별과 튜닝 가이드 제공.\n배달의민족(2022~2024): 주문·결제 회귀 테스트 운영. 장애 예방 시나리오 확대.\n카카오뱅크(2020~2022): 모바일 앱 회귀 테스트 자동화. 배포 전 검증 리드타임 단축.\n\n[경력]\nSI 프로젝트에서 수동 테스트와 결함 관리를 담당하며 QA 기본기를 다졌다.",
+    ),
+    EngineerProfile(
+        engineer_id="qa-010",
+        grade="JUNIOR",
+        status="AVAILABLE",
+        engineer_role="QA",
+        employment_type="FREELANCER",
+        capability_text="Appium / Java / Rest Assured / Jenkins / Jira / TestRail\n\n정보처리기사",
+        experience_text="[소개]\n2년차 테스트 자동화 엔지니어. 금융, 커머스, 모바일 앱 품질 검증과 성능 테스트를 수행한 QA 엔지니어.\n\n[프로젝트 경험]\n안랩(2024~2025): 보안 솔루션 품질 검증. 결함 재현율 향상과 케이스 표준화.\n쿠팡(2022~2024): 정산 시스템 API 테스트. 계산 로직 검증 체계 정비.\n라인(2020~2022): 글로벌 메신저 부하 테스트. 병목 구간 식별과 튜닝 가이드 제공.\n\n[경력]\n사내 QA 조직에서 자동화 프레임워크와 테스트 리포팅 체계를 구축했다.",
     ),
     EngineerProfile(
         engineer_id="pln-001",
+        grade="EXPERT",
+        status="AVAILABLE",
+        engineer_role="PLANNER",
+        employment_type="FULL_TIME",
+        capability_text="Confluence / Notion / Jira / GA4 / SQL / Figma\n\nSQLD",
+        experience_text="[소개]\n12년차 서비스 기획자. 데이터 기반으로 문제를 정의하고 서비스 흐름을 설계하는 기획자.\n\n[프로젝트 경험]\n당근(2024~2025): 지역 커뮤니티 피드 서비스 기획. 핵심 지표 관리와 기능 고도화.\n카카오모빌리티(2022~2024): 배차 운영 화면 개선. 운영 효율 향상.\n야놀자(2020~2022): 숙소 운영 정책 관리 기능 기획. 운영자 입력 오류 감소.\n\n[경력]\n운영 기획에서 출발해 서비스 정책과 백오피스 설계 경험을 쌓았다.",
+    ),
+    EngineerProfile(
+        engineer_id="pln-002",
         grade="SENIOR",
         status="AVAILABLE",
         engineer_role="PLANNER",
         employment_type="FULL_TIME",
-        capability_text=(
-            "Confluence / Slack / Notion / GA4 / SQL / Mixpanel"
-        ),
-        experience_text=(
-            "[소개]\n"
-            "이커머스/부동산 도메인 서비스 기획 전문. 데이터 기반 의사결정 경험.\n"
-            "\n"
-            "[프로젝트 경험]\n"
-            "당근마켓(2023~2025): 지역 커뮤니티 신규 피드 서비스 기획 및 런칭. MAU 20% 증대. 포지션: PM.\n"
-            "직방(2020~2023): 부동산 매물 관리 시스템 백오피스 기획 및 프로세스 자동화. 포지션: 서비스 기획자.\n"
-            "이커머스 기업(2016~2020): 주문/결제 서비스 운영 기획. 포지션: PM."
-        ),
+        capability_text="Amplitude / Mixpanel / Excel / Slack / PowerPoint / Notion\n\nADsP",
+        experience_text="[소개]\n8년차 PM. 백오피스, 운영 도구, 고객 여정 개선 프로젝트를 이끈 서비스 기획자.\n\n[프로젝트 경험]\n직방(2024~2025): 매물 운영 백오피스 개편. 운영 프로세스 단순화.\n토스(2022~2024): 고객센터 상담 관리 기능 기획. 응답 시간 단축.\n당근(2020~2022): 지역 커뮤니티 피드 서비스 기획. 핵심 지표 관리와 기능 고도화.\n\n[경력]\n프로덕트 조직에서 데이터 분석가, 디자이너, 개발자와 협업하며 기능을 출시했다.",
+    ),
+    EngineerProfile(
+        engineer_id="pln-003",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="PLANNER",
+        employment_type="FULL_TIME",
+        capability_text="Miro / Notion / GA4 / Looker Studio / SQL / Slack\n\n없음",
+        experience_text="[소개]\n8년차 프로덕트 오너. 요구사항 정리와 이해관계자 조율에 강점이 있는 PM.\n\n[프로젝트 경험]\n컬리(2024~2025): 프로모션 관리 도구 기획. 마케터 셀프서브 운영 지원.\n무신사(2022~2024): 상품 등록 프로세스 개선. 등록 오류 감소.\n직방(2020~2022): 매물 운영 백오피스 개편. 운영 프로세스 단순화.\n\n[경력]\nB2B SaaS 환경에서 고객 요구사항을 제품 기능으로 구체화한 경험이 있다.",
+    ),
+    EngineerProfile(
+        engineer_id="pln-004",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="PLANNER",
+        employment_type="FULL_TIME",
+        capability_text="Jira / Confluence / Excel / Figma / Tableau / SQL\n\nSQLD",
+        experience_text="[소개]\n8년차 플랫폼 기획자. 운영 정책과 화면 기획을 함께 다룰 수 있는 실무형 기획자.\n\n[프로젝트 경험]\n카카오모빌리티(2024~2025): 배차 운영 화면 개선. 운영 효율 향상.\n야놀자(2022~2024): 숙소 운영 정책 관리 기능 기획. 운영자 입력 오류 감소.\n컬리(2020~2022): 프로모션 관리 도구 기획. 마케터 셀프서브 운영 지원.\n\n[경력]\n여러 부서의 요구사항을 조율하며 우선순위를 정리하는 역할을 맡아 왔다.",
+    ),
+    EngineerProfile(
+        engineer_id="pln-005",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="PLANNER",
+        employment_type="FULL_TIME",
+        capability_text="Confluence / Notion / Jira / GA4 / SQL / Figma\n\nSQLD",
+        experience_text="[소개]\n5년차 서비스 기획자. 데이터 기반으로 문제를 정의하고 서비스 흐름을 설계하는 기획자.\n\n[프로젝트 경험]\n토스(2024~2025): 고객센터 상담 관리 기능 기획. 응답 시간 단축.\n당근(2022~2024): 지역 커뮤니티 피드 서비스 기획. 핵심 지표 관리와 기능 고도화.\n카카오모빌리티(2020~2022): 배차 운영 화면 개선. 운영 효율 향상.\n\n[경력]\n운영 기획에서 출발해 서비스 정책과 백오피스 설계 경험을 쌓았다.",
+    ),
+    EngineerProfile(
+        engineer_id="pln-006",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="PLANNER",
+        employment_type="FULL_TIME",
+        capability_text="Amplitude / Mixpanel / Excel / Slack / PowerPoint / Notion\n\nADsP",
+        experience_text="[소개]\n5년차 PM. 백오피스, 운영 도구, 고객 여정 개선 프로젝트를 이끈 서비스 기획자.\n\n[프로젝트 경험]\n무신사(2024~2025): 상품 등록 프로세스 개선. 등록 오류 감소.\n직방(2022~2024): 매물 운영 백오피스 개편. 운영 프로세스 단순화.\n토스(2020~2022): 고객센터 상담 관리 기능 기획. 응답 시간 단축.\n\n[경력]\n프로덕트 조직에서 데이터 분석가, 디자이너, 개발자와 협업하며 기능을 출시했다.",
+    ),
+    EngineerProfile(
+        engineer_id="pln-007",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="PLANNER",
+        employment_type="FREELANCER",
+        capability_text="Miro / Notion / GA4 / Looker Studio / SQL / Slack\n\n없음",
+        experience_text="[소개]\n5년차 프로덕트 오너. 요구사항 정리와 이해관계자 조율에 강점이 있는 PM.\n\n[프로젝트 경험]\n야놀자(2024~2025): 숙소 운영 정책 관리 기능 기획. 운영자 입력 오류 감소.\n컬리(2022~2024): 프로모션 관리 도구 기획. 마케터 셀프서브 운영 지원.\n무신사(2020~2022): 상품 등록 프로세스 개선. 등록 오류 감소.\n\n[경력]\nB2B SaaS 환경에서 고객 요구사항을 제품 기능으로 구체화한 경험이 있다.",
+    ),
+    EngineerProfile(
+        engineer_id="pln-008",
+        grade="JUNIOR",
+        status="AVAILABLE",
+        engineer_role="PLANNER",
+        employment_type="FREELANCER",
+        capability_text="Jira / Confluence / Excel / Figma / Tableau / SQL\n\nSQLD",
+        experience_text="[소개]\n2년차 플랫폼 기획자. 운영 정책과 화면 기획을 함께 다룰 수 있는 실무형 기획자.\n\n[프로젝트 경험]\n당근(2024~2025): 지역 커뮤니티 피드 서비스 기획. 핵심 지표 관리와 기능 고도화.\n카카오모빌리티(2022~2024): 배차 운영 화면 개선. 운영 효율 향상.\n야놀자(2020~2022): 숙소 운영 정책 관리 기능 기획. 운영자 입력 오류 감소.\n\n[경력]\n여러 부서의 요구사항을 조율하며 우선순위를 정리하는 역할을 맡아 왔다.",
+    ),
+    EngineerProfile(
+        engineer_id="pub-001",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="PUBLISHER",
+        employment_type="FULL_TIME",
+        capability_text="HTML5 / CSS3 / SCSS / JavaScript / jQuery / 웹 접근성\n\n웹디자인기능사",
+        experience_text="[소개]\n8년차 웹 퍼블리셔. 반응형 웹 구축과 웹 접근성 대응 경험이 풍부한 퍼블리셔.\n\n[프로젝트 경험]\n아모레퍼시픽(2024~2025): 공식 온라인몰 반응형 웹 리뉴얼. 웹 접근성 인증 대응.\n현대백화점(2022~2024): 브랜드 캠페인 사이트 제작. 크로스브라우징 품질 확보.\n신세계인터내셔날(2020~2022): 시즌 캠페인 사이트 구축. 디바이스 대응 범위 확대.\n\n[경력]\n에이전시에서 다양한 산업군의 웹사이트 구축과 운영을 담당했다.",
+    ),
+    EngineerProfile(
+        engineer_id="pub-002",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="PUBLISHER",
+        employment_type="FULL_TIME",
+        capability_text="HTML5 / CSS3 / Tailwind CSS / Alpine.js / Figma / 접근성 진단\n\nGTQ 1급",
+        experience_text="[소개]\n8년차 퍼블리셔. 디자인 시안을 정교하게 구현하고 운영 효율을 높이는 퍼블리셔.\n\n[프로젝트 경험]\n무신사(2024~2025): 프로모션 페이지 퍼블리싱. 반복 제작 가능한 템플릿화.\n롯데ON(2022~2024): 기획전 랜딩 페이지 운영. 배포 리드타임 단축.\n아모레퍼시픽(2020~2022): 공식 온라인몰 반응형 웹 리뉴얼. 웹 접근성 인증 대응.\n\n[경력]\n인하우스 커머스 조직에서 디자인 시스템 기반 퍼블리싱을 수행했다.",
+    ),
+    EngineerProfile(
+        engineer_id="pub-003",
+        grade="SENIOR",
+        status="AVAILABLE",
+        engineer_role="PUBLISHER",
+        employment_type="FULL_TIME",
+        capability_text="HTML5 / SCSS / Gulp / Swiper / Cross Browsing / 웹 표준\n\n없음",
+        experience_text="[소개]\n8년차 반응형 웹 퍼블리셔. 이벤트 페이지, 브랜드 사이트, 커머스 프론트 퍼블리싱 경험이 많은 퍼블리셔.\n\n[프로젝트 경험]\nCJ ENM(2024~2025): 콘텐츠 이벤트 페이지 구축. 모바일 인터랙션 최적화.\n올리브영(2022~2024): 브랜드전 페이지 퍼블리싱. 운영 생산성 향상.\n무신사(2020~2022): 프로모션 페이지 퍼블리싱. 반복 제작 가능한 템플릿화.\n\n[경력]\n웹 표준과 접근성 가이드를 정비하며 팀 내 품질 기준을 수립했다.",
+    ),
+    EngineerProfile(
+        engineer_id="pub-004",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="PUBLISHER",
+        employment_type="FULL_TIME",
+        capability_text="HTML5 / CSS Modules / Storybook / 웹 접근성 / 디자인 시스템\n\n웹디자인기능사",
+        experience_text="[소개]\n5년차 UI 퍼블리셔. 디자인 시스템과 컴포넌트 기반 퍼블리싱에 익숙한 퍼블리셔.\n\n[프로젝트 경험]\n현대백화점(2024~2025): 브랜드 캠페인 사이트 제작. 크로스브라우징 품질 확보.\n신세계인터내셔날(2022~2024): 시즌 캠페인 사이트 구축. 디바이스 대응 범위 확대.\nCJ ENM(2020~2022): 콘텐츠 이벤트 페이지 구축. 모바일 인터랙션 최적화.\n\n[경력]\n디자이너와 개발자 사이에서 구현 기준을 맞추는 역할을 지속적으로 맡아 왔다.",
+    ),
+    EngineerProfile(
+        engineer_id="pub-005",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="PUBLISHER",
+        employment_type="FULL_TIME",
+        capability_text="HTML5 / CSS3 / JavaScript / GSAP / SVG / 웹 접근성\n\nGTQ 1급",
+        experience_text="[소개]\n5년차 웹 퍼블리셔. 반응형 웹 구축과 웹 접근성 대응 경험이 풍부한 퍼블리셔.\n\n[프로젝트 경험]\n롯데ON(2024~2025): 기획전 랜딩 페이지 운영. 배포 리드타임 단축.\n아모레퍼시픽(2022~2024): 공식 온라인몰 반응형 웹 리뉴얼. 웹 접근성 인증 대응.\n현대백화점(2020~2022): 브랜드 캠페인 사이트 제작. 크로스브라우징 품질 확보.\n\n[경력]\n에이전시에서 다양한 산업군의 웹사이트 구축과 운영을 담당했다.",
+    ),
+    EngineerProfile(
+        engineer_id="pub-006",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="PUBLISHER",
+        employment_type="FULL_TIME",
+        capability_text="HTML5 / CSS3 / SCSS / JavaScript / jQuery / 웹 접근성\n\n웹디자인기능사",
+        experience_text="[소개]\n5년차 퍼블리셔. 디자인 시안을 정교하게 구현하고 운영 효율을 높이는 퍼블리셔.\n\n[프로젝트 경험]\n올리브영(2024~2025): 브랜드전 페이지 퍼블리싱. 운영 생산성 향상.\n무신사(2022~2024): 프로모션 페이지 퍼블리싱. 반복 제작 가능한 템플릿화.\n롯데ON(2020~2022): 기획전 랜딩 페이지 운영. 배포 리드타임 단축.\n\n[경력]\n인하우스 커머스 조직에서 디자인 시스템 기반 퍼블리싱을 수행했다.",
+    ),
+    EngineerProfile(
+        engineer_id="pub-007",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="PUBLISHER",
+        employment_type="FULL_TIME",
+        capability_text="HTML5 / CSS3 / Tailwind CSS / Alpine.js / Figma / 접근성 진단\n\nGTQ 1급",
+        experience_text="[소개]\n5년차 반응형 웹 퍼블리셔. 이벤트 페이지, 브랜드 사이트, 커머스 프론트 퍼블리싱 경험이 많은 퍼블리셔.\n\n[프로젝트 경험]\n신세계인터내셔날(2024~2025): 시즌 캠페인 사이트 구축. 디바이스 대응 범위 확대.\nCJ ENM(2022~2024): 콘텐츠 이벤트 페이지 구축. 모바일 인터랙션 최적화.\n올리브영(2020~2022): 브랜드전 페이지 퍼블리싱. 운영 생산성 향상.\n\n[경력]\n웹 표준과 접근성 가이드를 정비하며 팀 내 품질 기준을 수립했다.",
+    ),
+    EngineerProfile(
+        engineer_id="pub-008",
+        grade="INTERMEDIATE",
+        status="AVAILABLE",
+        engineer_role="PUBLISHER",
+        employment_type="FREELANCER",
+        capability_text="HTML5 / SCSS / Gulp / Swiper / Cross Browsing / 웹 표준\n\n없음",
+        experience_text="[소개]\n5년차 UI 퍼블리셔. 디자인 시스템과 컴포넌트 기반 퍼블리싱에 익숙한 퍼블리셔.\n\n[프로젝트 경험]\n아모레퍼시픽(2024~2025): 공식 온라인몰 반응형 웹 리뉴얼. 웹 접근성 인증 대응.\n현대백화점(2022~2024): 브랜드 캠페인 사이트 제작. 크로스브라우징 품질 확보.\n신세계인터내셔날(2020~2022): 시즌 캠페인 사이트 구축. 디바이스 대응 범위 확대.\n\n[경력]\n디자이너와 개발자 사이에서 구현 기준을 맞추는 역할을 지속적으로 맡아 왔다.",
+    ),
+    EngineerProfile(
+        engineer_id="pub-009",
+        grade="JUNIOR",
+        status="AVAILABLE",
+        engineer_role="PUBLISHER",
+        employment_type="FREELANCER",
+        capability_text="HTML5 / CSS Modules / Storybook / 웹 접근성 / 디자인 시스템\n\n웹디자인기능사",
+        experience_text="[소개]\n2년차 웹 퍼블리셔. 반응형 웹 구축과 웹 접근성 대응 경험이 풍부한 퍼블리셔.\n\n[프로젝트 경험]\n무신사(2024~2025): 프로모션 페이지 퍼블리싱. 반복 제작 가능한 템플릿화.\n롯데ON(2022~2024): 기획전 랜딩 페이지 운영. 배포 리드타임 단축.\n아모레퍼시픽(2020~2022): 공식 온라인몰 반응형 웹 리뉴얼. 웹 접근성 인증 대응.\n\n[경력]\n에이전시에서 다양한 산업군의 웹사이트 구축과 운영을 담당했다.",
+    ),
+    EngineerProfile(
+        engineer_id="pub-010",
+        grade="JUNIOR",
+        status="AVAILABLE",
+        engineer_role="PUBLISHER",
+        employment_type="FREELANCER",
+        capability_text="HTML5 / CSS3 / JavaScript / GSAP / SVG / 웹 접근성\n\nGTQ 1급",
+        experience_text="[소개]\n2년차 퍼블리셔. 디자인 시안을 정교하게 구현하고 운영 효율을 높이는 퍼블리셔.\n\n[프로젝트 경험]\nCJ ENM(2024~2025): 콘텐츠 이벤트 페이지 구축. 모바일 인터랙션 최적화.\n올리브영(2022~2024): 브랜드전 페이지 퍼블리싱. 운영 생산성 향상.\n무신사(2020~2022): 프로모션 페이지 퍼블리싱. 반복 제작 가능한 템플릿화.\n\n[경력]\n인하우스 커머스 조직에서 디자인 시스템 기반 퍼블리싱을 수행했다.",
     ),
 ]
+
+assert len(SAMPLE_ENGINEER_PROFILES) == 100

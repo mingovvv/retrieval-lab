@@ -10,3 +10,6 @@ langchain-ollama
 python-dotenv
 pytest
 upstash-vector
+numpy
+matplotlib
+scipy
