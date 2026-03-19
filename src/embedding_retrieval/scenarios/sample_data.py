@@ -1,6 +1,6 @@
 ﻿from __future__ import annotations
 
-from ..types import EngineerProfile
+from ..types import EngineerProfile, Skill
 
 # ---------------------------------------------------------------------------
 # 기존 단일 텍스트 포맷 (하위호환 — 기존 노트북 04 등에서 사용)
@@ -1096,3 +1096,104 @@ SAMPLE_ENGINEER_PROFILES: list[EngineerProfile] = [
 ]
 
 assert len(SAMPLE_ENGINEER_PROFILES) == 100
+
+# ---------------------------------------------------------------------------
+# 스킬 임베딩용 샘플 데이터
+# skill_id 는 DB INSERT 순서와 대응 (1-based).
+# embed_text = skill.name 그대로 사용 — LLM 1차 정규화 후 2차 정규화(벡터 매칭) 용도.
+# ---------------------------------------------------------------------------
+SAMPLE_SKILLS: list[Skill] = [
+    # ── LANGUAGE ─────────────────────────────────────────────────────────────
+    Skill(skill_id=1,   name="Java",           category="LANGUAGE",   embed_text="Java"),
+    Skill(skill_id=2,   name="Kotlin",          category="LANGUAGE",   embed_text="Kotlin"),
+    Skill(skill_id=5,   name="Python",          category="LANGUAGE",   embed_text="Python"),
+    Skill(skill_id=8,   name="JavaScript",      category="LANGUAGE",   embed_text="JavaScript"),
+    Skill(skill_id=9,   name="TypeScript",      category="LANGUAGE",   embed_text="TypeScript"),
+    Skill(skill_id=13,  name="Go",              category="LANGUAGE",   embed_text="Go"),
+    Skill(skill_id=12,  name="C#",              category="LANGUAGE",   embed_text="C#"),
+    Skill(skill_id=16,  name="Swift",           category="LANGUAGE",   embed_text="Swift"),
+    Skill(skill_id=15,  name="Rust",            category="LANGUAGE",   embed_text="Rust"),
+    Skill(skill_id=36,  name="SQL",             category="LANGUAGE",   embed_text="SQL"),
+    # ── FRAMEWORK ────────────────────────────────────────────────────────────
+    Skill(skill_id=53,  name="Spring Boot",     category="FRAMEWORK",  embed_text="Spring Boot"),
+    Skill(skill_id=57,  name="Spring Batch",    category="FRAMEWORK",  embed_text="Spring Batch"),
+    Skill(skill_id=55,  name="Spring Security", category="FRAMEWORK",  embed_text="Spring Security"),
+    Skill(skill_id=56,  name="Spring Data JPA", category="FRAMEWORK",  embed_text="Spring Data JPA"),
+    Skill(skill_id=82,  name="FastAPI",         category="FRAMEWORK",  embed_text="FastAPI"),
+    Skill(skill_id=81,  name="Django",          category="FRAMEWORK",  embed_text="Django"),
+    Skill(skill_id=68,  name="NestJS",          category="FRAMEWORK",  embed_text="NestJS"),
+    Skill(skill_id=72,  name="React",           category="FRAMEWORK",  embed_text="React"),
+    Skill(skill_id=73,  name="Next.js",         category="FRAMEWORK",  embed_text="Next.js"),
+    Skill(skill_id=74,  name="Vue.js",          category="FRAMEWORK",  embed_text="Vue.js"),
+    Skill(skill_id=119, name="LangChain",       category="FRAMEWORK",  embed_text="LangChain"),
+    Skill(skill_id=113, name="PyTorch",         category="FRAMEWORK",  embed_text="PyTorch"),
+    # ── DATABASE ─────────────────────────────────────────────────────────────
+    Skill(skill_id=143, name="PostgreSQL",      category="DATABASE",   embed_text="PostgreSQL"),
+    Skill(skill_id=144, name="MySQL",           category="DATABASE",   embed_text="MySQL"),
+    Skill(skill_id=157, name="Redis",           category="DATABASE",   embed_text="Redis"),
+    Skill(skill_id=156, name="MongoDB",         category="DATABASE",   embed_text="MongoDB"),
+    Skill(skill_id=158, name="Elasticsearch",   category="DATABASE",   embed_text="Elasticsearch"),
+    Skill(skill_id=147, name="Oracle Database", category="DATABASE",   embed_text="Oracle Database"),
+    Skill(skill_id=166, name="DynamoDB",        category="DATABASE",   embed_text="DynamoDB"),
+    Skill(skill_id=173, name="Snowflake",       category="DATABASE",   embed_text="Snowflake"),
+    Skill(skill_id=171, name="ClickHouse",      category="DATABASE",   embed_text="ClickHouse"),
+    Skill(skill_id=179, name="Memcached",       category="DATABASE",   embed_text="Memcached"),
+    # ── CLOUD ─────────────────────────────────────────────────────────────────
+    Skill(skill_id=243, name="AWS",             category="CLOUD",      embed_text="AWS"),
+    Skill(skill_id=246, name="Amazon EKS",      category="CLOUD",      embed_text="Amazon EKS"),
+    Skill(skill_id=256, name="Amazon Lambda",   category="CLOUD",      embed_text="Amazon Lambda"),
+    Skill(skill_id=247, name="Amazon S3",       category="CLOUD",      embed_text="Amazon S3"),
+    Skill(skill_id=248, name="Amazon RDS",      category="CLOUD",      embed_text="Amazon RDS"),
+    Skill(skill_id=285, name="Google Cloud",    category="CLOUD",      embed_text="Google Cloud"),
+    Skill(skill_id=272, name="Microsoft Azure", category="CLOUD",      embed_text="Microsoft Azure"),
+    Skill(skill_id=294, name="Firebase",        category="CLOUD",      embed_text="Firebase"),
+    Skill(skill_id=303, name="Vercel",          category="CLOUD",      embed_text="Vercel"),
+    Skill(skill_id=301, name="Cloudflare",      category="CLOUD",      embed_text="Cloudflare"),
+    # ── DEVOPS ────────────────────────────────────────────────────────────────
+    Skill(skill_id=307, name="Docker",          category="DEVOPS",     embed_text="Docker"),
+    Skill(skill_id=311, name="Kubernetes",      category="DEVOPS",     embed_text="Kubernetes"),
+    Skill(skill_id=318, name="GitHub Actions",  category="DEVOPS",     embed_text="GitHub Actions"),
+    Skill(skill_id=329, name="Terraform",       category="DEVOPS",     embed_text="Terraform"),
+    Skill(skill_id=314, name="Helm",            category="DEVOPS",     embed_text="Helm"),
+    Skill(skill_id=316, name="Argo CD",         category="DEVOPS",     embed_text="Argo CD"),
+    Skill(skill_id=335, name="Prometheus",      category="DEVOPS",     embed_text="Prometheus"),
+    Skill(skill_id=336, name="Grafana",         category="DEVOPS",     embed_text="Grafana"),
+    Skill(skill_id=332, name="Ansible",         category="DEVOPS",     embed_text="Ansible"),
+    Skill(skill_id=317, name="Jenkins",         category="DEVOPS",     embed_text="Jenkins"),
+    # ── INFRA ─────────────────────────────────────────────────────────────────
+    Skill(skill_id=181, name="Linux",           category="INFRA",      embed_text="Linux"),
+    Skill(skill_id=190, name="Nginx",           category="INFRA",      embed_text="Nginx"),
+    Skill(skill_id=236, name="Apache Kafka",    category="INFRA",      embed_text="Apache Kafka"),
+    Skill(skill_id=234, name="RabbitMQ",        category="INFRA",      embed_text="RabbitMQ"),
+    Skill(skill_id=202, name="Keycloak",        category="INFRA",      embed_text="Keycloak"),
+    Skill(skill_id=209, name="Vault",           category="INFRA",      embed_text="Vault"),
+    Skill(skill_id=206, name="Consul",          category="INFRA",      embed_text="Consul"),
+    Skill(skill_id=210, name="MinIO",           category="INFRA",      embed_text="MinIO"),
+    # ── DESIGN ───────────────────────────────────────────────────────────────
+    Skill(skill_id=244, name="DDD",                     category="DESIGN", embed_text="DDD"),
+    Skill(skill_id=252, name="MSA",                     category="DESIGN", embed_text="MSA"),
+    Skill(skill_id=249, name="Clean Architecture",      category="DESIGN", embed_text="Clean Architecture"),
+    Skill(skill_id=254, name="CQRS",                    category="DESIGN", embed_text="CQRS"),
+    Skill(skill_id=253, name="Event-Driven Architecture", category="DESIGN", embed_text="Event-Driven Architecture"),
+    Skill(skill_id=246, name="TDD",                     category="DESIGN", embed_text="TDD"),
+    Skill(skill_id=243, name="REST API Design",          category="DESIGN", embed_text="REST API Design"),
+    Skill(skill_id=270, name="Design System",            category="DESIGN", embed_text="Design System"),
+    # ── TOOL ──────────────────────────────────────────────────────────────────
+    Skill(skill_id=372, name="Git",             category="TOOL",       embed_text="Git"),
+    Skill(skill_id=378, name="Jira",            category="TOOL",       embed_text="Jira"),
+    Skill(skill_id=360, name="Postman",         category="TOOL",       embed_text="Postman"),
+    Skill(skill_id=362, name="Swagger",         category="TOOL",       embed_text="Swagger"),
+    Skill(skill_id=396, name="SonarQube",       category="TOOL",       embed_text="SonarQube"),
+    Skill(skill_id=406, name="k6",              category="TOOL",       embed_text="k6"),
+    Skill(skill_id=351, name="DataGrip",        category="TOOL",       embed_text="DataGrip"),
+    Skill(skill_id=383, name="Figma",           category="TOOL",       embed_text="Figma"),
+    # ── OTHER ─────────────────────────────────────────────────────────────────
+    Skill(skill_id=432, name="MLOps",               category="OTHER",  embed_text="MLOps"),
+    Skill(skill_id=435, name="RAG",                 category="OTHER",  embed_text="RAG"),
+    Skill(skill_id=430, name="ETL",                 category="OTHER",  embed_text="ETL"),
+    Skill(skill_id=411, name="Agile",               category="OTHER",  embed_text="Agile"),
+    Skill(skill_id=441, name="SRE",                 category="OTHER",  embed_text="SRE"),
+    Skill(skill_id=420, name="Performance Tuning",  category="OTHER",  embed_text="Performance Tuning"),
+    Skill(skill_id=434, name="Prompt Engineering",  category="OTHER",  embed_text="Prompt Engineering"),
+    Skill(skill_id=417, name="Code Review",         category="OTHER",  embed_text="Code Review"),
+]

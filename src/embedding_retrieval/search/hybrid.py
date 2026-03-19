@@ -8,6 +8,7 @@ from __future__ import annotations
 from ..stores.dual_upstash import DualUpstashStore, _build_scalar_filter
 from ..types import EngineerCandidate, EngineerProfile, ScoreBreakdown
 from .bm25 import BM25Index
+from .exact_skill import calc_capability_score
 from .rrf import fuse_results
 
 
@@ -40,8 +41,17 @@ class HybridSearcher:
         grades: list[str] | None = None,
         exclude_ids: list[str] | None = None,
         rrf_k: int = 60,
+        exact_skill_scores: dict[str, float] | None = None,
     ) -> list[EngineerCandidate]:
-        """4-way 검색 → RRF 합산 → 가중 결합 → EngineerCandidate 리스트 반환."""
+        """4-way 검색 → 스코어링 → 가중 결합 → EngineerCandidate 리스트 반환.
+
+        Parameters
+        ----------
+        exact_skill_scores : dict[str, float] | None
+            engineer_id → exact_skill_score 매핑.
+            제공 시: capability_score = 0.8×exact + 0.2×dense (Notion 스펙).
+            None 시: 기존 BM25+RRF fallback.
+        """
         cap_w, exp_w = weights
         fetch_k = top_k * 3
 
@@ -61,11 +71,52 @@ class HybridSearcher:
         cap_dense = [(r.metadata["engineer_id"], r.score) for r in cap_dense_raw]
         exp_dense = [(r.metadata["engineer_id"], r.score) for r in exp_dense_raw]
 
-        # --- 2. BM25 검색 ---
+        cap_dense_map = dict(cap_dense)
+        exp_dense_map = dict(exp_dense)
+
+        # --- 2. exact_skill_scores 제공 시: Notion 스펙 스코어링 ---
+        if exact_skill_scores is not None:
+            all_ids = set(cap_dense_map) | set(exp_dense_map)
+            final_scores: dict[str, float] = {}
+            cap_score_map: dict[str, float] = {}
+            exp_score_map: dict[str, float] = {}
+
+            for eid in all_ids:
+                exact = exact_skill_scores.get(eid, 0.0)
+                dense_cap = cap_dense_map.get(eid, 0.0)
+                cap_score = calc_capability_score(exact, dense_cap)
+                exp_score = exp_dense_map.get(eid, 0.0)
+
+                cap_score_map[eid] = cap_score
+                exp_score_map[eid] = exp_score
+                final_scores[eid] = cap_w * cap_score + exp_w * exp_score
+
+            ranked = sorted(final_scores.items(), key=lambda x: -x[1])[:top_k]
+
+            candidates = []
+            for rank, (eid, final_score) in enumerate(ranked, start=1):
+                profile = self._profiles.get(eid)
+                if not profile:
+                    continue
+                breakdown = ScoreBreakdown(
+                    exact_skill_score=exact_skill_scores.get(eid, 0.0),
+                    dense_capability_score=cap_dense_map.get(eid, 0.0),
+                    capability_score=cap_score_map[eid],
+                    experience_score=exp_score_map[eid],
+                    final_score=final_score,
+                )
+                candidates.append(EngineerCandidate(
+                    engineer_id=eid,
+                    rank=rank,
+                    score_breakdown=breakdown,
+                    profile=profile,
+                ))
+            return candidates
+
+        # --- 3. fallback: BM25 검색 + RRF ---
         cap_bm25_all = self._cap_bm25.search(capability_query, top_k=fetch_k)
         exp_bm25_all = self._exp_bm25.search(experience_query, top_k=fetch_k)
 
-        # BM25에는 스칼라 필터가 없으므로 exclude_ids 등 수동 필터링
         allowed = self._allowed_ids(
             only_available=only_available,
             only_full_time=only_full_time,
@@ -76,29 +127,21 @@ class HybridSearcher:
         cap_bm25 = [(eid, s) for eid, s in cap_bm25_all if eid in allowed]
         exp_bm25 = [(eid, s) for eid, s in exp_bm25_all if eid in allowed]
 
-        # --- 3. RRF 합산 (capability, experience 각각) ---
         cap_fused = fuse_results(cap_dense, cap_bm25, alpha=0.5, beta=0.5, k=rrf_k)
         exp_fused = fuse_results(exp_dense, exp_bm25, alpha=0.5, beta=0.5, k=rrf_k)
 
-        # --- 4. 원본 점수 lookup용 dict ---
-        cap_dense_map = dict(cap_dense)
-        exp_dense_map = dict(exp_dense)
         cap_bm25_map = dict(cap_bm25)
         exp_bm25_map = dict(exp_bm25)
         cap_fused_map = dict(cap_fused)
         exp_fused_map = dict(exp_fused)
 
-        # --- 5. 최종 점수: cap_w * cap_rrf + exp_w * exp_rrf ---
         all_ids = set(dict(cap_fused)) | set(dict(exp_fused))
-        final_scores: dict[str, float] = {}
+        final_scores = {}
         for eid in all_ids:
-            cap_score = cap_fused_map.get(eid, 0.0)
-            exp_score = exp_fused_map.get(eid, 0.0)
-            final_scores[eid] = cap_w * cap_score + exp_w * exp_score
+            final_scores[eid] = cap_w * cap_fused_map.get(eid, 0.0) + exp_w * exp_fused_map.get(eid, 0.0)
 
         ranked = sorted(final_scores.items(), key=lambda x: -x[1])[:top_k]
 
-        # --- 6. EngineerCandidate 생성 ---
         candidates = []
         for rank, (eid, final_score) in enumerate(ranked, start=1):
             profile = self._profiles.get(eid)

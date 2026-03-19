@@ -5,6 +5,10 @@ capability / experience 를 별도 네임스페이스로 관리하되,
 """
 from __future__ import annotations
 
+import time
+
+import numpy as np
+
 from ..compat import Document, Embeddings
 from ..types import EngineerProfile, SearchResult
 from .upstash import UpstashVectorStoreAdapter
@@ -41,10 +45,12 @@ class DualUpstashStore:
     def __init__(self, embeddings: Embeddings, url: str, token: str) -> None:
         self._embeddings = embeddings
         self._cap_store = UpstashVectorStoreAdapter(
-            embeddings=embeddings, url=url, token=token, namespace="capability",
+            embeddings=embeddings, url=url, token=token,
+            namespace="capability", text_key="capability_text",
         )
         self._exp_store = UpstashVectorStoreAdapter(
-            embeddings=embeddings, url=url, token=token, namespace="experience",
+            embeddings=embeddings, url=url, token=token,
+            namespace="experience", text_key="experience_text",
         )
 
     @staticmethod
@@ -55,7 +61,7 @@ class DualUpstashStore:
             "status": p.status,
             "engineer_role": p.engineer_role,
             "employment_type": p.employment_type,
-            "department_id": p.department_id,
+            "updated_at": p.updated_at or int(time.time()),
         }
 
     def add_profiles(self, profiles: list[EngineerProfile]) -> None:
@@ -67,6 +73,26 @@ class DualUpstashStore:
             exp_docs.append(Document(page_content=p.experience_text, metadata=meta))
         self._cap_store.add_documents(cap_docs)
         self._exp_store.add_documents(exp_docs)
+
+    def fetch_cap_vectors(self) -> dict[str, np.ndarray]:
+        """capability 네임스페이스의 모든 벡터를 반환한다. 임베딩 API 재호출 없음.
+
+        Returns
+        -------
+        dict[str, np.ndarray]
+            engineer_id → capability 벡터 (768차원)
+        """
+        return self._cap_store.fetch_all()
+
+    def fetch_exp_vectors(self) -> dict[str, np.ndarray]:
+        """experience 네임스페이스의 모든 벡터를 반환한다. 임베딩 API 재호출 없음.
+
+        Returns
+        -------
+        dict[str, np.ndarray]
+            engineer_id → experience 벡터 (768차원)
+        """
+        return self._exp_store.fetch_all()
 
     def search_capability(
         self, query: str, top_k: int, filter: str | None = None,

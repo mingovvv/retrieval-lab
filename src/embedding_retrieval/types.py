@@ -54,13 +54,19 @@ class ClientRequest:
 
 @dataclass(slots=True)
 class ScoreBreakdown:
+    # Phase 2 — Notion 스펙 스코어링
+    exact_skill_score: float = 0.0       # matched / required  (정형 매칭)
+    dense_capability_score: float = 0.0  # cosine(cap_query, cap_vec)
+    capability_score: float = 0.0        # 0.8×exact + 0.2×dense
+    experience_score: float = 0.0        # cosine(exp_query, exp_vec)
+    final_score: float = 0.0             # cap_w×capability + exp_w×experience
+    # Legacy — BM25+RRF fallback (exact_skill_scores 미제공 시)
     capability_dense: float = 0.0
     capability_bm25: float = 0.0
     experience_dense: float = 0.0
     experience_bm25: float = 0.0
     capability_rrf: float = 0.0
     experience_rrf: float = 0.0
-    final_score: float = 0.0
 
 
 @dataclass(slots=True)
@@ -82,3 +88,24 @@ class PositionResult:
 class RecommendationResponse:
     request_id: str
     positions: list[PositionResult] = field(default_factory=list)
+
+
+# ---------------------------------------------------------------------------
+# Skill — 스킬 임베딩용 도메인 타입
+# ---------------------------------------------------------------------------
+
+@dataclass(slots=True)
+class Skill:
+    skill_id: int
+    name: str
+    category: str       # LANGUAGE | FRAMEWORK | DATABASE | INFRA | DESIGN | CLOUD | DEVOPS | TOOL | OTHER
+    embed_text: str     # 임베딩용 텍스트 — skill.name 그대로 사용
+
+
+@dataclass(slots=True)
+class SkillSearchResult:
+    """capability_master 벡터 검색 결과 한 건."""
+    name: str           # 마스터 표준 스킬명
+    category: str       # LANGUAGE | FRAMEWORK | ...
+    score: float        # cosine 유사도
+    master_id: int = 0  # Notion capability_master 스펙 필드명
